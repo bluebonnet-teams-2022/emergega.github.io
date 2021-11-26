@@ -1,4 +1,8 @@
+
+
 ## Welcome to GitHub Pages
+
+![interactive_alabama](interactive_alabama.html)
 
 You can use the [editor on GitHub](https://github.com/clparent121/hci-project-2-team-15/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
