@@ -5,6 +5,8 @@
 
 ![interactive_alabama](interactive_alabama.html)
 
+
+<center><iframe width="560" height="315" src="infogram_test.html" title="YouTube video player" frameborder="0"></iframe></center>
 ![infogram_test](infogram_test.html)
 
 You can use the [editor on GitHub](https://github.com/clparent121/hci-project-2-team-15/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
