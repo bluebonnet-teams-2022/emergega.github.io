@@ -22,6 +22,7 @@ For our investigation, we decided to focus on Alabama for the following reasons:
 <center><iframe width="560" height="315" src="interactive_alabama.html" title="Internet Access Map" frameborder="0"></iframe></center>
 <center><iframe width="560" height="315" src="dot_map_with_pct_black.html" title="Internet by Educational Attainment with Race" frameborder="0"></iframe></center>
 <center><iframe width="560" height="315" src="dot_map_with_poverty.html" title="Internet by Percent Poverty" frameborder="0"></iframe></center>
+<center><iframe width="560" height="315" src="dot_map_poverty_diploma.html" title="Internet by Percent Poverty" frameborder="0"></iframe></center>
 
 
 ## Infogram Interactive Graph Visualizations
