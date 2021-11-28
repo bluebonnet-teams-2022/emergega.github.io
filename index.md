@@ -71,7 +71,7 @@ To quantify our chosen issue of internet accessibility and educational success, 
 - % population 25 or older with high school diploma
 - % of population who identified as Black or African American along with other racial breakdowns.
 
-Data was pulled in R using the censusapi package. Visuals were made using R with ggplot2, tigris, and sf packages as well as Infogram. 
+Data was pulled in R using the censusapi package. Visuals were made using R with ggplot2, tigris, rCharts and sf packages as well as Infogram. 
 
 ### References
 - [1]https://www.weforum.org/agenda/2020/04/coronavirus-education-global-covid19-online-digital-learning/  
