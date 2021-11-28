@@ -28,9 +28,9 @@ For our investigation, we decided to focus on Alabama for the following reasons:
 {::options parse_block_html="false" /}
 
 The data visualized on the Infogram interactive graph slide deck comes from census data 
-1. across different census tracts in our three chosen counties for just year 2017 
+1. Across different census tracts in our three chosen counties for just year 2017 
 2. Across years 2013-2019 for each of the chosen three counties 
-3. across all counties in Alabama for just year 2017. 
+3. Across all counties in Alabama for just year 2017. 
 To quantify our chosen issue of internet accessibility and educational success, the relevant census data outcome labels we found were 
 a breakdown of internet access types (# households with an internet subscription, # households with internet access but no subscription, # households with no internet access)
 % population 25 or older with high school diploma
