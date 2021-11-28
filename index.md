@@ -78,3 +78,151 @@ Data was pulled in R using the censusapi package. Visuals were made using R with
 - [2]https://hbr.org/2020/09/the-pandemic-pushed-universities-online-the-change-was-long-overdue 
 - [3]https://www.brookings.edu/blog/techtank/2020/03/17/what-the-coronavirus-reveals-about-the-digital-divide-between-schools-and-communities/
 - [4]https://morganya.org/research/warschauer-olpc-birmingham.pdf 
+
+<iframe srcdoc=' &lt;!doctype HTML&gt;
+&lt;meta charset = &#039;utf-8&#039;&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    
+    &lt;link rel=&#039;stylesheet&#039; href=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css&#039;&gt;
+    
+    
+    
+    &lt;script src=&#039;//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    
+    &lt;script src=&#039;//d3js.org/d3.v3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    
+    &lt;script src=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    
+    &lt;script src=&#039;//nvd3.org/assets/lib/fisheye.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    
+    
+    &lt;style&gt;
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 600px;
+      height: 400px;
+    }  
+    &lt;/style&gt;
+    
+  &lt;/head&gt;
+  &lt;body &gt;
+    
+    &lt;div id = &#039;chart33e81fc051f1&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;script type=&#039;text/javascript&#039;&gt;
+ $(document).ready(function(){
+      drawchart33e81fc051f1()
+    });
+    function drawchart33e81fc051f1(){  
+      var opts = {
+ &quot;dom&quot;: &quot;chart33e81fc051f1&quot;,
+&quot;width&quot;:      600,
+&quot;height&quot;:      400,
+&quot;x&quot;: &quot;County&quot;,
+&quot;y&quot;: &quot;Households&quot;,
+&quot;group&quot;: &quot;Label&quot;,
+&quot;type&quot;: &quot;multiBarChart&quot;,
+&quot;id&quot;: &quot;chart33e81fc051f1&quot; 
+},
+        data = [
+ {
+ &quot;Label&quot;: &quot;Total Households&quot;,
+&quot;County&quot;: &quot;Jefferson County&quot;,
+&quot;Households&quot;: 261390 
+},
+{
+ &quot;Label&quot;: &quot;Households with Internet&quot;,
+&quot;County&quot;: &quot;Jefferson County&quot;,
+&quot;Households&quot;: 203998 
+},
+{
+ &quot;Label&quot;: &quot;Households in Poverty&quot;,
+&quot;County&quot;: &quot;Jefferson County&quot;,
+&quot;Households&quot;: 44730 
+},
+{
+ &quot;Label&quot;: &quot;Total Households&quot;,
+&quot;County&quot;: &quot;Mobile County&quot;,
+&quot;Households&quot;: 153794 
+},
+{
+ &quot;Label&quot;: &quot;Households with Internet&quot;,
+&quot;County&quot;: &quot;Mobile County&quot;,
+&quot;Households&quot;: 113049 
+},
+{
+ &quot;Label&quot;: &quot;Households in Poverty&quot;,
+&quot;County&quot;: &quot;Mobile County&quot;,
+&quot;Households&quot;: 28490 
+},
+{
+ &quot;Label&quot;: &quot;Total Households&quot;,
+&quot;County&quot;: &quot;Montgomery County&quot;,
+&quot;Households&quot;: 89776 
+},
+{
+ &quot;Label&quot;: &quot;Households with Internet&quot;,
+&quot;County&quot;: &quot;Montgomery County&quot;,
+&quot;Households&quot;: 71197 
+},
+{
+ &quot;Label&quot;: &quot;Households in Poverty&quot;,
+&quot;County&quot;: &quot;Montgomery County&quot;,
+&quot;Households&quot;: 16927 
+} 
+]
+  
+      if(!(opts.type===&quot;pieChart&quot; || opts.type===&quot;sparklinePlus&quot; || opts.type===&quot;bulletChart&quot;)) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? &#039;main&#039; : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != &quot;bulletChart&quot;){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        
+          
+        
+
+        
+        
+        
+      
+       d3.select(&quot;#&quot; + opts.id)
+        .append(&#039;svg&#039;)
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+&lt;/script&gt;
+    
+    &lt;script&gt;&lt;/script&gt;    
+  &lt;/body&gt;
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart33e81fc051f1'> </iframe>
+ <style>iframe.rChart{ width: 100%; height: 400px;}</style>
