@@ -63,9 +63,8 @@ Internet blah blah, policy recs, injustice
 ### Data Sources and Visuals
 The data visualized on the Infogram interactive graph slide deck comes from census data and specifically, the American Community Survey. We pulled data for:
 
-1. Statewide internet accessibility using the 2017 American Community 5-year survey
-2. Alabama internet accessibility by county using the 2017 American Community 5-year survey
-3. Across years 2013-2019 for each of the chosen three counties using the 1 year survey.
+1. Statewide internet accessibility, educational success, and other demographics using the 2017 American Community 5-year survey
+2. Alabama internet accessibility, educational success, and other demographics by county using the 2017 American Community 5-year survey
 
 To quantify our chosen issue of internet accessibility and educational success, the relevant census data outcome labels we found were 
 - a breakdown of internet access types (# households with an internet subscription, # households with internet access but no subscription, # households with no internet access)
