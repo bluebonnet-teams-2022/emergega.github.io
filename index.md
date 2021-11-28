@@ -18,9 +18,8 @@ For our investigation, we decided to focus on Alabama for the following reasons:
 - [pl1]https://www.weforum.org/agenda/2020/04/coronavirus-education-global-covid19-online-digital-learning/  
 - https://www.weforum.org/agenda/2020/04/coronavirus-education-global-covid19-online-digital-learning/  
 - [pl2]https://hbr.org/2020/09/the-pandemic-pushed-universities-online-the-change-was-long-overdue
-
+<center><iframe width="560" height="315" src="us_internet_map.html" title="Internet by Percent Poverty" frameborder="0"></iframe></center>
 <center><iframe width="560" height="315" src="interactive_alabama.html" title="Internet Access Map" frameborder="0"></iframe></center>
-<center><iframe width="560" height="315" src="dot_map_up.html" title="Internet by Educational Attainment" frameborder="0"></iframe></center>
 <center><iframe width="560" height="315" src="dot_map_with_pct_black.html" title="Internet by Educational Attainment with Race" frameborder="0"></iframe></center>
 <center><iframe width="560" height="315" src="dot_map_with_poverty.html" title="Internet by Percent Poverty" frameborder="0"></iframe></center>
 
