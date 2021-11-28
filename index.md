@@ -4,9 +4,9 @@
 Pamela, Cassandra, and Rena
 
 ## Background
-The Covid-19 pandemic has strengthened our reliance on technology in education, replacing traditional classroom functions such as lecture, exams, assignments, office hours, and others with alternatives online using video conferencing tools or online learning software, like Blackboard.  [pl1] 
+The Covid-19 pandemic has strengthened our reliance on technology in education, replacing traditional classroom functions such as lecture, exams, assignments, office hours, and others with alternatives online using video conferencing tools or online learning software, like Blackboard<sup>1</sup>.
 
-Since March 2019, when campuses closed due to rising Covid-19 cases, colleges nationwide have scrambled to transition to online learning[pl2] . Class lectures have become synchronous and asynchronous, live on Zoom or recorded. Assignments and exams are also completed and submitted on third-party websites like BlackBoard or Gradescope. Even as the classroom adapts to hybrid modes as Covid-19 regulations ease, all these technologies still remain vital to classroom functions regardless. In K-12 schools,  many children all experience similar impacts of technology in their classrooms. Children as young as 5-year old take their seats in front of their computer to participate in classes online via Zoom. Middle and High school students have moved most of their classroom functions online as well.
+Since March 2019, when campuses closed due to rising Covid-19 cases, colleges nationwide have scrambled to transition to online learning<sup>2</sup>. Class lectures have become synchronous and asynchronous, live on Zoom or recorded. Assignments and exams are also completed and submitted on third-party websites like BlackBoard or Gradescope. Even as the classroom adapts to hybrid modes as Covid-19 regulations ease, all these technologies still remain vital to classroom functions regardless. In K-12 schools,  many children all experience similar impacts of technology in their classrooms. Children as young as 5-year old take their seats in front of their computer to participate in classes online via Zoom. Middle and High school students have moved most of their classroom functions online as well.
 
 However, ever before this pandemic, technology has already spread its roots into our education system. In all subjects taught in school, technology has been used to supplement in-class lectures. In a language class, one might find themselves consulting Google Translate or another online translator. In a math class, one might find themselves searching in Stack Overflow for the answers to their Linear Algebra questions. In a Science class, one might have dumped their Organic Chemistry compounds into a Quizlet to make flashcards to study with. On team assignments, students may have corresponded through Messenger, Email, or GroupMe and collaborated on Google Drive. Grades were also updated online . It’s difficult, but not impossible, to imagine the alternatives for all these technologies in an in-person classroom setting.
 
@@ -14,7 +14,7 @@ While this shift has provided more flexibility to people from different backgrou
 
 <center><iframe width="560" height="315" src="us_internet_map.html" title="Internet by Percent Poverty" frameborder="0"></iframe></center>
 
-The lack of internet access has left many low-income, school-age disadvantaged in completing assignments and other school-related activities as compared to their high-income counterparts in a phenomenon coined by FCC Commissioner Jessica Rosenworcel called “homework gap”[pl3]. 
+The lack of internet access has left many low-income, school-age disadvantaged in completing assignments and other school-related activities as compared to their high-income counterparts in a phenomenon coined by FCC Commissioner Jessica Rosenworcel called “homework gap”<sup>3</sup>. 
 
 <center><iframe width="560" height="315" src="dot_map_poverty_diploma.html" title="Internet by Percent Poverty" frameborder="0"></iframe></center>
 <center><iframe width="560" height="315" src="dot_map_with_poverty.html" title="Internet by Percent Poverty" frameborder="0"></iframe></center>
@@ -29,18 +29,16 @@ For example, in the following graph, we can start to observe how sporadic the co
 
 <center><iframe width="560" height="315" src="dot_map_with_pct_black.html" title="Internet by Educational Attainment with Race" frameborder="0"></iframe></center>
 
-Although tech accessibility initiatives are not ubiquitous in all Alabama, there has been some, such as the one in called “One Laptop per Child” in  Birmingham, AL 2012  where “…some 15,000 of the group’s XO laptops were distributed to all first- through fifth-grade public school students and their teachers”[pl4]. We further narrow our scope to three Alabama counties, Montgomery, Jefferson (where Birmingham is located), and Mobile, because all three are ranked differently from most educated to least educated counties
+Although tech accessibility initiatives are not ubiquitous in all Alabama, there has been some, such as the one in called “One Laptop per Child” in  Birmingham, AL 2012  where “…some 15,000 of the group’s XO laptops were distributed to all first- through fifth-grade public school students and their teachers”<sup>4</sup>. We further narrow our scope to three Alabama counties, Montgomery, Jefferson (where Birmingham is located), and Mobile, because all three are ranked differently from most educated to least educated counties
 
 
 ## Infogram Interactive Graph Visualizations and Analysis
 
-The data visualized on the Infogram interactive graph slide deck comes from census data 
+The data visualized on the Infogram interactive graph slide deck comes from the American Community Survey.
 
-1. Across different census tracts in our three chosen counties for just year 2017 
+1. Across years 2013-2019 for each of the chosen three counties using the 1 year survey.
 
-2. Across years 2013-2019 for each of the chosen three counties 
-
-3. Across all counties in Alabama for just year 2017. 
+2. Across all counties in Alabama for just year 2017 using the 5 year survey. 
 
 To quantify our chosen issue of internet accessibility and educational success, the relevant census data outcome labels we found were 
 - a breakdown of internet access types (# households with an internet subscription, # households with internet access but no subscription, # households with no internet access)
@@ -72,7 +70,7 @@ Looking at educational attainment and internet access across Alabama overall for
 {::options parse_block_html="false" /}
 
 ### References
-- [pl1]https://www.weforum.org/agenda/2020/04/coronavirus-education-global-covid19-online-digital-learning/  
-- [pl2]https://hbr.org/2020/09/the-pandemic-pushed-universities-online-the-change-was-long-overdue 
-- [pl3]https://www.brookings.edu/blog/techtank/2020/03/17/what-the-coronavirus-reveals-about-the-digital-divide-between-schools-and-communities/
-- [pl4]https://morganya.org/research/warschauer-olpc-birmingham.pdf 
+- [1]https://www.weforum.org/agenda/2020/04/coronavirus-education-global-covid19-online-digital-learning/  
+- [2]https://hbr.org/2020/09/the-pandemic-pushed-universities-online-the-change-was-long-overdue 
+- [3]https://www.brookings.edu/blog/techtank/2020/03/17/what-the-coronavirus-reveals-about-the-digital-divide-between-schools-and-communities/
+- [4]https://morganya.org/research/warschauer-olpc-birmingham.pdf 
