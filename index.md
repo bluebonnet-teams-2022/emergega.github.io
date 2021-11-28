@@ -4,7 +4,7 @@
 <center><iframe width="560" height="315" src="interactive_alabama.html" title="Internet Access Map" frameborder="0"></iframe></center>
 <center><iframe width="560" height="315" src="dot_map_up.html" title="Internet by Educational Attainment" frameborder="0"></iframe></center>
 <center><iframe width="560" height="315" src="dot_map_with_pct_black.html" title="Internet by Educational Attainment with Race" frameborder="0"></iframe></center>
-![interactive_alabama](interactive_alabama.html)
+<center><iframe width="560" height="315" src="dot_map_with_poverty.html" title="Internet by Percent Poverty" frameborder="0"></iframe></center>
 
 
 {::options parse_block_html="true" /}
