@@ -12,7 +12,7 @@ However, even before this pandemic, technology has already spread its roots into
 
 While this shift has provided more flexibility to people from different backgrounds and time zones, this has changed technology from being a supplement to education in the classroom to a necessity as some classroom operations have been strictly online. It is increasingly harder to accommodate those who do not have access to Zoom meetings or paid training modules. According to the Federal Communications Commission, “broadband availability has been at the heart of the digital divide with an estimated 21.3 million people lacking access in 2019." Although the digital gap between urban and rural communities is narrowing, the connectivity of households in the rural areas is still below the average with only two-thirds of rural Americans reported a home broadband connection. 
 
-<center><iframe width="560" height="315" src="us_internet_map.html" title="Internet by Percent Poverty" frameborder="0"></iframe></center>
+<center><iframe width="1060" height="715" src="us_internet_map.html" title="Internet by Percent Poverty" frameborder="0"></iframe></center>
 
 This map showcases internet access in different states. Please take the time to hover over different states, zoom in and out, and focus on different locations on the map. Our data sources and variable definitions are all listed at the end of the essay. This map shows Alabama having the worst internet connectivity rates in the United States so we wanted why this is the case. By exploring Alabama, we can help develop targeted solutions to provide internet connection to those who need it. 
 
