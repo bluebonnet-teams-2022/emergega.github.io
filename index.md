@@ -1,6 +1,6 @@
 
 
-# Data Analysis of Voting Data in Georgia and Calculation of Flippability Scores and Other Computations 
+# Data Analysis of Voting in Georgia 
 Ambika, Marcelina, Rena, Lois, Khushi 
 
 ## Flippability Score and Democratic Strength Computation Explanations
