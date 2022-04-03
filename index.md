@@ -2,7 +2,6 @@
 # Data Analysis of Voting in Georgia 
 
 
-
 ## Flippability Score and Democratic Strength Computation Explanations
 
 For the purpose of our analysis, we computed Democratic strength, a metric expressed as a percentage that measures the level of partisan strength of the Democratic Party given the election results within a given political subdivision (i.e. county, state senate district, state house district, etc.).
@@ -11,8 +10,8 @@ In order to determine Democratic strength, we first collected election results f
 <LI>County-level presidential election results to compute Democratic strength of each county
 <LI>Congressional district-level presidential election results to compute Democratic strength of each congressional district
 <LI>State Senate election results to compute Democratic strength of each State Senate district
- <LI>State House election results to compute Democratic strength of each State House district
- <LI>District Attorney election results to compute Democratic strength of each judicial circuit
+<LI>State House election results to compute Democratic strength of each State House district
+<LI>District Attorney election results to compute Democratic strength of each judicial circuit
   
 To calculate Democratic strength, we computed the average of the two-party vote for each political subdivision as follows:
 
@@ -26,7 +25,7 @@ Using Democratic strength, we then created a flippability score, which is a meas
 ****INSERT CHART HERE WILL BE CALLED THE CHART FOR DEMOCRATIC STRENGTH AND FLIPPABILITY SCORE*****
   
 
-### Color Map Display Explanation
+## Color Map Display Explanation
 On our color map, the flippability score is translated with the intensity (pale to dark) of the purple color of each political area subdivision.
 
 **NEED TO ADD THIS HERE** written in red in actual doc:
