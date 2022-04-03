@@ -8,20 +8,17 @@
 For the purpose of our analysis, we computed Democratic strength, a metric expressed as a percentage that measures the level of partisan strength of the Democratic Party given the election results within a given political subdivision (i.e. county, state senate district, state house district, etc.).
 
 In order to determine Democratic strength, we first collected election results for the last three election cycles for each political subdivision; we gathered the following data: 
-<OL START=”1″>
+
 <LI>County-level presidential election results to compute Democratic strength of each county
 <LI>Congressional district-level presidential election results to compute Democratic strength of each congressional district
 <LI>State Senate election results to compute Democratic strength of each State Senate district
- <LI>State House election results to compute Democratic strength of each State House district
- <LI>District Attorney election results to compute Democratic strength of each judicial circuit
-  
-</OL>
+<LI>State House election results to compute Democratic strength of each State House district
+<LI>District Attorney election results to compute Democratic strength of each judicial circuit
 
 
 To calculate Democratic strength, we computed the average of the two-party vote for each political subdivision as follows:
 
-INSERT LATEX EQUATION HERE. 
-  <script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+<script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 <p><span class="math display">\[y = \frac{a}{b} + c^2 + d\]</span></p>
 
@@ -114,4 +111,4 @@ We are a team of 5 Blue Bonnet Fellows working with the Emerge GA 527 Team and M
 - Rena is a recent graduate from Johns Hopkins University, studying computer science and social policy. She’s super passionate about applying her technical skills to social impact initiatives, and excited to work with you all before joining Microsoft full-time in August. 
 - Ambika is a current junior at Rutgers University, studying computer science and minoring in business and cognitive science. She is excited to apply her technical skills using political data and being a part of this team! 
 - Khushi is a sophomore at Rutgers University, majoring in computer science and minoring in cognitive science. She’s interested in the intersection of tech & politics and very excited to get started on this data team!
-- Lois is working as a financial analyst in Corporate America by day and a political organizer by nights/weekends. She is a graduate of the University of Virginia (Go Hoos!), where she studied Public Policy and Business. She is excited to be making her foray in working with political data with Emerge Georgia, with hopes to one day make it her full-time job. )
+- Lois is working as a financial analyst in Corporate America by day and a political organizer by nights/weekends. She is a graduate of the University of Virginia (Go Hoos!), where she studied Public Policy and Business. She is excited to be making her foray in working with political data with Emerge Georgia, with hopes to one day make it her full-time job.
