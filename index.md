@@ -66,11 +66,24 @@ Our election result data collection was primarily pulled from the follwing sites
 <LI>have we gotten confirmation for sharing the data site? Check Slack! 
 </UL>
 
+ 
 ## Spreadsheet Calculations Explained
+To calculate if a given political area subdivision currently already has a Democrat in office, we used the IF() function, = IF(J2 > K2, 1, 0)where J2 is a cell within the column listing the # of Democratic votes and K2 is a cell within the column listing the # of Republican votes. which translates to the conditional statement of: 
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>insert the latex equation in here</h1>
+    <p>Welcome to my GitHub Pages site!</p>
+  </body>
+</html>
 
 
+ 
+ 
 
-### Conclusions
+## Conclusions
 Both the large-scale statewide and county case study results show that people living in rural communities are disadvantaged when it comes to internet access. In particicular, people of color are disproportionately affected. This is particularly unjust considering the reliance on internet to perform school activities in the era of COVID-19.<sup>5</sup> So while, there is an association in our graphs with lack of internet access leading to not receiving a high school diploma, we expect this discrepency will be furthered in future data. For instance, when large-scale data becomes available for 2020-2022, we expect that internet access will be even more strongly correlated with schooling outcomes. 
 
 Based on our analysis, we recommend policies that increase internet access in rural and minority communities especially in Alabama. It seems that these ideas are already in discussion at the national level with the most recent passed infrastructure bill providing 14 billion dollars in funding to provide broadband internet connection to rural America.<sup>5</sup> While this is a great first step, in many ways, this proposal is too late to undo the harms of COVID-19 on people's education. Therefore, we also recommend policies to support high-school dropouts in the COVID-19 pandemic to correct these injusticies.
