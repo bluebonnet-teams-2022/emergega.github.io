@@ -25,9 +25,13 @@ Using Democratic strength, we then created a flippability score, which is a meas
 
 ****INSERT CHART HERE WILL BE CALLED THE CHART FOR DEMOCRATIC STRENGTH AND FLIPPABILITY SCORE*****
   
-Color Map Display Explanation
+
+### Color Map Display Explanation
 On our color map, the flippability score is translated with the intensity (pale to dark) of the purple color of each political area subdivision.
 
-NEED TO ADD THIS HERE written in red in actual doc: "On the map below Link to spreadsheet, how to edit and rerun map code Most flippable counties" NEED TO ADD THIS HERE written in red in actual doc
-
+**NEED TO ADD THIS HERE** written in red in actual doc:
+"On the map below
+Link to spreadsheet, how to edit and rerun map code
+Most flippable counties" **NEED TO ADD THIS HERE** written in red in actual doc 
+ 
 
