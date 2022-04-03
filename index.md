@@ -33,6 +33,8 @@ Using Democratic strength, we then created a flippability score, which is a meas
  
 
 ### Color Map Display Explanation
+ 
+  <center><iframe width="660" height="615" src="interactive_georgia" title="Interactive Georgia Map" frameborder="0"></iframe></center>
 On our color map, the flippability score is translated with the intensity (pale to dark) of the purple color of each political area subdivision.
 
 **NEED TO ADD THIS HERE** written in red in actual doc:
