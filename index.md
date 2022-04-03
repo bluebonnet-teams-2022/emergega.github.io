@@ -15,7 +15,7 @@ In order to determine Democratic strength, we first collected election results f
  <LI>State House election results to compute Democratic strength of each State House district
  <LI>District Attorney election results to compute Democratic strength of each judicial circuit
   
-</OL>
+
 
 
 
