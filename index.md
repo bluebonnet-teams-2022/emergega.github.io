@@ -24,7 +24,7 @@ To calculate Democratic strength, we computed the average of the two-party vote 
 
 Using Democratic strength, we then created a flippability score, which is a measure that determines the likelihood of flipping a political subdivision from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. Political subdivisions already currently under Democratic control are denoted as 0 on the flippability scale.
 
-<center><iframe width="500" height="375" src="flip_chart.png" title="Flippability Chart" frameborder="0"></iframe></center>
+<center><iframe width="500" height="500" src="flip_chart.png" title="Flippability Chart" frameborder="0"></iframe></center>
  
  
 
