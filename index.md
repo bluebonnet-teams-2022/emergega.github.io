@@ -22,7 +22,7 @@ INSERT LATEX EQUATION HERE.
   
 Using Democratic strength, we then created a flippability score, which is a measure that determines the likelihood of flipping a political subdivision from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. Political subdivisions already currently under Democratic control are denoted as 0 on the flippability scale.
 
-****INSERT CHART HERE WILL BE CALLED THE CHART FOR DEMOCRATIC STRENGTH AND FLIPPABILITY SCORE*****
+chart for dem and flippability score thing 
   
 
 ## Color Map Display Explanation
