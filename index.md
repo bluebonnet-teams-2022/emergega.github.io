@@ -1,22 +1,33 @@
 
 
 # Data Analysis of Voting in Georgia 
-Ambika, Marcelina, Rena, Lois, Khushi 
+The Emerge Georgia BlueBonnet Team:
+<UL>
+<LI>Rena, Marcelina, Lois, Khushi, Ambika 
+</UL>
+
 
 ## Flippability Score and Democratic Strength Computation Explanations
 
 For the purpose of our analysis, we computed Democratic strength, a metric expressed as a percentage that measures the level of partisan strength of the Democratic Party given the election results within a given political subdivision (i.e. county, state senate district, state house district, etc.).
 
-In order to determine Democratic strength, we first collected election results for the last three election cycles for each political subdivision; we gathered 
-(1) county-level presidential election results to compute Democratic strength of each county, (2) congressional district-level presidential election results to compute Democratic strength of each congressional district, 
-(3) State Senate election results to compute Democratic strength of each State Senate district, 
-(4) State House election results to compute Democratic strength of each State House district, and 
-(5) District Attorney election results to compute Democratic strength of each judicial circuit.
+In order to determine Democratic strength, we first collected election results for the last three election cycles for each political subdivision; we gathered the following data: 
+<OL START=”1″>
+<LI>County-level presidential election results to compute Democratic strength of each county
+<LI>Congressional district-level presidential election results to compute Democratic strength of each congressional district
+<LI>State Senate election results to compute Democratic strength of each State Senate district
+ <LI>State House election results to compute Democratic strength of each State House district
+ <LI>District Attorney election results to compute Democratic strength of each judicial circuit
+  
+</OL>
+
 
 To calculate Democratic strength, we computed the average of the two-party vote for each political subdivision as follows:
 
 INSERT LATEX EQUATION HERE. 
-
+  <script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<p><span class="math display">\[y = \frac{a}{b} + c^2 + d\]</span></p>
 
 Using Democratic strength, we then created a flippability score, which is a measure that determines the likelihood of flipping a political subdivision from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. Political subdivisions already currently under Democratic control are denoted as 0 on the flippability scale.
 
@@ -35,10 +46,25 @@ Most flippable counties" **NEED TO ADD THIS HERE** written in red in actual doc
  
 
 ## Data Collection and Link to Spreadsheet
-Our election result data collection was primarily pulled from the Georgia Secretary of State website (https://results.enr.clarityelections.com/GA/), Dave Leip's Atlas of U.S. Elections (​​https://uselectionatlas.org/RESULTS/), and the Washington Post’s Election Reporting (https://www.washingtonpost.com/elections/election-results/georgia-senate-runoffs-2021/).
+Our election result data collection was primarily pulled from the follwing sites: 
+ <OL>
+<LI>Georgia Secretary of State Website 
+<UL>
+<LI>https://results.enr.clarityelections.com/GA/
+</UL>
+<LI>Dave Leip's Atlas of U.S. Elections 
+<UL>
+<LI>https://uselectionatlas.org/RESULTS/
+</UL>
+ <LI>Washington Post's Election Reporting  
+<UL>
+<LI>https://www.washingtonpost.com/elections/election-results/georgia-senate-runoffs-2021/
+</UL>
+</OL>
 
-Our computation per political subdivision is listed on this Google Sheet (hAVE WE CHECKED WITH BB ABOUT SHARING THIS DATA ON THE WEBSITE --> the website content)
-
+<UL>
+<LI>have we gotten confirmation for sharing the data site? Check Slack! 
+</UL>
 
 ## Spreadsheet Calculations Explained
 
