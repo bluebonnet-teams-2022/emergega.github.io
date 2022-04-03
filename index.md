@@ -68,43 +68,56 @@ Our election result data collection was primarily pulled from the follwing sites
 
  
 ## Spreadsheet Calculations Explained
-To calculate if a given political area subdivision currently already has a Democrat in office, we used the IF() function, = IF(J2 > K2, 1, 0)where J2 is a cell within the column listing the # of Democratic votes and K2 is a cell within the column listing the # of Republican votes. which translates to the conditional statement of: 
+ <OL>
+<LI>To calculate if a given political area subdivision currently already has a Democarat in office, we used the following: 
+<UL>
+<LI>IF() function, = IF(J2 > K2, 1, 0)
+<LI>where, J2 is a cell within the column listing the # of Democratic votes 
+<LI>where, K2 is a cell within the column listing the # of Republican votes 
+<LI>Conditional Statement used: insert latex statement 
+</UL>
+<LI>To calculate the democratic strength of a given political area subdivision, we used the following: 
+<UL>
+<LI>SUM()function to compute the arithmetic mean, =sum(M2, U2, Q2, I2)/4
+<LI>M2, U2, Q2, I2 are all cells within the columns listing the expression below for each respective election cycle
+<LI>Expression: 
+</UL>
+ <LI>Next, we computed the flippability score. To do this, a more complex conditional using the IF() function is needed, which corresponds to the table listed above **say which section it is listed in!**
+<UL>
+<LI>=IF(C2 = 1, 0, IF(D2 < 34.99, 1, IF(D2 < 39.99, 2 ,IF(D2 < 44.99, 3, IF(D2 < 47.49, 4, IF(D2 < 49.99, 5, 6))))))
+<LI>"C2" is a cell within the column which lists a 0 if the current political office is held by a Republican and a 1 if it is otherwise held by a Democrat  
+<LI>D2 is a cell in the column listing the Democratic Strength 
+</UL>
+</OL>
+
 <!DOCTYPE html>
 <html>
   <head>
   </head>
   <body>
-    <h1>insert the latex equation in here</h1>
-    <p>Welcome to my GitHub Pages site!</p>
+    <p>insert latex equation or image here! use this code for number 1 and 2 in this section (note for ambika)</p>
   </body>
 </html>
-
+ 
+ 
 
  
  
 
-## Conclusions
-Both the large-scale statewide and county case study results show that people living in rural communities are disadvantaged when it comes to internet access. In particicular, people of color are disproportionately affected. This is particularly unjust considering the reliance on internet to perform school activities in the era of COVID-19.<sup>5</sup> So while, there is an association in our graphs with lack of internet access leading to not receiving a high school diploma, we expect this discrepency will be furthered in future data. For instance, when large-scale data becomes available for 2020-2022, we expect that internet access will be even more strongly correlated with schooling outcomes. 
+## Top 20 Most Flippable Counties List 
+Given the above calculations performed on Georgia counties for the 2016 (Clinton and Trump ) and 2020 (Biden and Trump) presidential elections, the 2018 midterm gubernatorial elections (Abrams and Kemp), and the 2021 U.S. Senate Runoff election (Ossoff and Perdue), a list of the top 20 counties with the highest flippability scores are listed below:
+ 
+ INSERT TABLE HERE 
 
-Based on our analysis, we recommend policies that increase internet access in rural and minority communities especially in Alabama. It seems that these ideas are already in discussion at the national level with the most recent passed infrastructure bill providing 14 billion dollars in funding to provide broadband internet connection to rural America.<sup>5</sup> While this is a great first step, in many ways, this proposal is too late to undo the harms of COVID-19 on people's education. Therefore, we also recommend policies to support high-school dropouts in the COVID-19 pandemic to correct these injusticies.
 
-### Data Sources and Visuals
-The data visualized on the Infogram interactive graph slide deck comes from census data and specifically, the American Community Survey. We pulled data for:
+## Meet Our Team! 
+ We are a team of 5 Blue Bonnet Fellows working with the Emerge GA 527 Team and Maggie Chambers of Georgia branch of the Emerge organization! The Emerge Organization is a nonprofit aiming to recruit and train women and minorities to run for local offices. 
+<UL>
+<LI>Marcelina is an Elections Researcher at BallotReady and a recent Smith College graduate. 
+<LI>Rena is a recent graduate from Johns Hopkins University, studying computer science and social policy. She’s super passionate about applying her technical skills to social impact initiatives, and excited to work with you all before joining Microsoft full-time in August. 
+<LI>Ambika is a current junior at Rutgers University, studying computer science and minoring in business and cognitive science. She is excited to apply her technical skills using political data and being a part of this team! 
+<LI>Khushi is a sophomore at Rutgers University, majoring in computer science and minoring in cognitive science. She’s interested in the intersection of tech & politics and very excited to get started on this data team!
+<LI>Lois is working as a financial analyst in Corporate America by day and a political organizer by nights/weekends. She is a graduate of the University of Virginia (Go Hoos!), where she studied Public Policy and Business. She is excited to be making her foray in working with political data with Emerge Georgia, with hopes to one day make it her full-time job. )
+</UL>
 
-1. Statewide internet accessibility, educational success, and other demographics using the 2017 American Community 5-year survey
-2. Alabama internet accessibility, educational success, and other demographics by county using the 2017 American Community 5-year survey
 
-To quantify our chosen issue of internet accessibility and educational success, the relevant census data outcome labels we found were 
-- a breakdown of internet access types (# households with an internet subscription, # households with internet access but no subscription, # households with no internet access)
-- % population 25 or older with high school diploma
-- % of population who identified as Black or African American along with other racial breakdowns.
-
-Data was pulled in R using the censusapi package. Visuals were made using R with ggplot2, tigris, rCharts and sf packages as well as Infogram. 
-
-### References
-- [1] https://www.weforum.org/agenda/2020/04/coronavirus-education-global-covid19-online-digital-learning/  
-- [2] https://hbr.org/2020/09/the-pandemic-pushed-universities-online-the-change-was-long-overdue 
-- [3] https://www.brookings.edu/blog/techtank/2020/03/17/what-the-coronavirus-reveals-about-the-digital-divide-between-schools-and-communities/
-- [4] https://morganya.org/research/warschauer-olpc-birmingham.pdf 
-- [5] https://www.nytimes.com/2021/08/02/us/broadband-infrastructure.html
-- [6] https://www.nytimes.com/2021/05/17/business/infrastructure-rural-broadband.html
