@@ -108,14 +108,10 @@ Given the above calculations performed on Georgia counties for the 2016 (Clinton
  INSERT TABLE HERE 
 
 
-## Meet Our Team! 
- We are a team of 5 Blue Bonnet Fellows working with the Emerge GA 527 Team and Maggie Chambers of Georgia branch of the Emerge organization! The Emerge Organization is a nonprofit aiming to recruit and train women and minorities to run for local offices. 
-<UL>
-<LI>Marcelina is an Elections Researcher at BallotReady and a recent Smith College graduate. 
-<LI>Rena is a recent graduate from Johns Hopkins University, studying computer science and social policy. She’s super passionate about applying her technical skills to social impact initiatives, and excited to work with you all before joining Microsoft full-time in August. 
-<LI>Ambika is a current junior at Rutgers University, studying computer science and minoring in business and cognitive science. She is excited to apply her technical skills using political data and being a part of this team! 
-<LI>Khushi is a sophomore at Rutgers University, majoring in computer science and minoring in cognitive science. She’s interested in the intersection of tech & politics and very excited to get started on this data team!
-<LI>Lois is working as a financial analyst in Corporate America by day and a political organizer by nights/weekends. She is a graduate of the University of Virginia (Go Hoos!), where she studied Public Policy and Business. She is excited to be making her foray in working with political data with Emerge Georgia, with hopes to one day make it her full-time job. )
-</UL>
-
-
+### Meet Our Team! 
+We are a team of 5 Blue Bonnet Fellows working with the Emerge GA 527 Team and Maggie Chambers of Georgia branch of the Emerge organization! The Emerge Organization is a nonprofit aiming to recruit and train women and minorities to run for local offices. 
+- Marcelina is an Elections Researcher at BallotReady and a recent Smith College graduate. 
+- Rena is a recent graduate from Johns Hopkins University, studying computer science and social policy. She’s super passionate about applying her technical skills to social impact initiatives, and excited to work with you all before joining Microsoft full-time in August. 
+- Ambika is a current junior at Rutgers University, studying computer science and minoring in business and cognitive science. She is excited to apply her technical skills using political data and being a part of this team! 
+- Khushi is a sophomore at Rutgers University, majoring in computer science and minoring in cognitive science. She’s interested in the intersection of tech & politics and very excited to get started on this data team!
+- Lois is working as a financial analyst in Corporate America by day and a political organizer by nights/weekends. She is a graduate of the University of Virginia (Go Hoos!), where she studied Public Policy and Business. She is excited to be making her foray in working with political data with Emerge Georgia, with hopes to one day make it her full-time job. )
