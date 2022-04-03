@@ -1,10 +1,6 @@
 
-
 # Data Analysis of Voting in Georgia 
-The Emerge Georgia BlueBonnet Team:
-<UL>
-<LI>Rena, Marcelina, Lois, Khushi, Ambika 
-</UL>
+
 
 
 ## Flippability Score and Democratic Strength Computation Explanations
