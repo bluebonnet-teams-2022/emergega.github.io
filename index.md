@@ -49,12 +49,13 @@ IF() function, = IF(J2 > K2, 1, 0)
 - where, J2 is a cell within the column listing the # of Democratic votes 
 - where, K2 is a cell within the column listing the # of Republican votes 
 
-Conditional Statement used: insert latex statement 
+**Conditional Statement used:** insert latex statement 
 
 To calculate the democratic strength of a given political area subdivision, we used the following: 
 SUM()function to compute the arithmetic mean, =sum(M2, U2, Q2, I2)/4
 - M2, U2, Q2, I2 are all cells within the columns listing the expression below for each respective election cycle
-Expression: 
+
+**Expression: **
 
 Next, we computed the flippability score. To do this, a more complex conditional using the IF() function is needed, which corresponds to the table listed above.
 
