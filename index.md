@@ -22,22 +22,22 @@ To calculate Democratic strength, we computed the average of the two-party vote 
 </script>
 <p><span class="math display">\[y = \frac{a}{b} + c^2 + d\]</span></p>
 
-Using Democratic strength, we then created a flippability score, which is a measure that determines the likelihood of flipping a political subdivision from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. Political subdivisions already currently under Democratic control are denoted as 0 on the flippability scale.
-
+Using Democratic strength, we then created a flippability score, which is a measure that determines the likelihood of flipping a political subdivision from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. 
  
 <center><iframe width="500" height="500" src="flip_chart.png" title="Flippability Chart" frameborder="0"></iframe></center>
- 
+
+Political subdivisions already currently under Democratic control are denoted as 0 on the flippability scale.
+
 ## Color Map Display Explanation
  
- On our color map, the flippability score is translated with the intensity (pale to dark) of the purple color of each political area subdivision.
+On our color map, the flippability score is translated with the intensity (pale to dark) of the purple color of each political area subdivision.
  
- <center><iframe width="660" height="615" src="interactive_georgia" title="Interactive Georgia Map" frameborder="0"></iframe></center>
+<center><iframe width="660" height="615" src="interactive_georgia" title="Interactive Georgia Map" frameborder="0"></iframe></center>
 
-**NEED TO ADD THIS HERE** written in red in actual doc:
-"On the map below
+written in red:
+On the map below
 Link to spreadsheet, how to edit and rerun map code
 Most flippable counties" **NEED TO ADD THIS HERE** written in red in actual doc 
- 
 
 ## Data Collection and Link to Spreadsheet
 Our election result data collection was primarily pulled from the follwing sites: 
