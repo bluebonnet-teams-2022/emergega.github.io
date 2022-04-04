@@ -56,7 +56,7 @@ SUM()function to compute the arithmetic mean, =sum(M2, U2, Q2, I2)/4
 - M2, U2, Q2, I2 are all cells within the columns listing the expression below for each respective election cycle
 Expression: 
 
-Next, we computed the flippability score. To do this, a more complex conditional using the IF() function is needed, which corresponds to the table listed above **say which section it is listed in!**
+Next, we computed the flippability score. To do this, a more complex conditional using the IF() function is needed, which corresponds to the table listed above.
 
 - =IF(C2 = 1, 0, IF(D2 < 34.99, 1, IF(D2 < 39.99, 2 ,IF(D2 < 44.99, 3, IF(D2 < 47.49, 4, IF(D2 < 49.99, 5, 6))))))
 - "C2" is a cell within the column which lists a 0 if the current political office is held by a Republican and a 1 if it is otherwise held by a Democrat  
