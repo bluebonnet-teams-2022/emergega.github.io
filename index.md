@@ -24,14 +24,14 @@ To calculate Democratic strength, we computed the average of the two-party vote 
 
 Using Democratic strength, we then created a flippability score, which is a measure that determines the likelihood of flipping a political subdivision from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. Political subdivisions already currently under Democratic control are denoted as 0 on the flippability scale.
 
+ 
 <center><iframe width="500" height="500" src="flip_chart.png" title="Flippability Chart" frameborder="0"></iframe></center>
  
- 
-
 ## Color Map Display Explanation
  
-  <center><iframe width="660" height="615" src="interactive_georgia" title="Interactive Georgia Map" frameborder="0"></iframe></center>
-On our color map, the flippability score is translated with the intensity (pale to dark) of the purple color of each political area subdivision.
+ On our color map, the flippability score is translated with the intensity (pale to dark) of the purple color of each political area subdivision.
+ 
+ <center><iframe width="660" height="615" src="interactive_georgia" title="Interactive Georgia Map" frameborder="0"></iframe></center>
 
 **NEED TO ADD THIS HERE** written in red in actual doc:
 "On the map below
