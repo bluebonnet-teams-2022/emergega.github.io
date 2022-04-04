@@ -1,6 +1,6 @@
 
 # Data Analysis of Voting in Georgia 
-
+Marcelina, Rena, Ambika, Khushi, Lois
 
 
 ## Flippability Score and Democratic Strength Computation Explanations
@@ -25,11 +25,9 @@ To calculate Democratic strength, we computed the average of the two-party vote 
 Using Democratic strength, we then created a flippability score, which is a measure that determines the likelihood of flipping a political subdivision from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. 
  
 <center><iframe width="500" height="400" src="flip_chart.png" title="Flippability Chart" frameborder="0"></iframe></center>
-<br>
 
 Political subdivisions already currently under Democratic control are denoted as 0 on the flippability scale.
 
-<br>
 
 ## Color Map Display Explanation
  
@@ -107,7 +105,7 @@ Given the above calculations performed on Georgia counties for the 2016 (Clinton
  INSERT TABLE HERE 
 
 
-### Meet Our Team! 
+## Meet Our Team! 
 We are a team of 5 Blue Bonnet Fellows working with the Emerge GA 527 Team and Maggie Chambers of Georgia branch of the Emerge organization! The Emerge Organization is a nonprofit aiming to recruit and train women and minorities to run for local offices. 
 - Marcelina is an Elections Researcher at BallotReady and a recent Smith College graduate. 
 - Rena is a recent graduate from Johns Hopkins University, studying computer science and social policy. She’s super passionate about applying her technical skills to social impact initiatives, and excited to work with you all before joining Microsoft full-time in August. 
