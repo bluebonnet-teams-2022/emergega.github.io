@@ -9,11 +9,11 @@ For the purpose of our analysis, we computed Democratic strength, a metric expre
 
 In order to determine Democratic strength, we first collected election results for the last three election cycles for each political subdivision; we gathered the following data: 
 
-<LI>County-level presidential election results to compute Democratic strength of each county
-<LI>Congressional district-level presidential election results to compute Democratic strength of each congressional district
-<LI>State Senate election results to compute Democratic strength of each State Senate district
-<LI>State House election results to compute Democratic strength of each State House district
-<LI>District Attorney election results to compute Democratic strength of each judicial circuit
+- County-level presidential election results to compute Democratic strength of each county
+- Congressional district-level presidential election results to compute Democratic strength of each congressional district
+- State Senate election results to compute Democratic strength of each State Senate district
+- State House election results to compute Democratic strength of each State House district
+- District Attorney election results to compute Democratic strength of each judicial circuit
 
 
 To calculate Democratic strength, we computed the average of the two-party vote for each political subdivision as follows:
@@ -35,55 +35,32 @@ On our color map, the flippability score is translated with the intensity (pale 
  
 <center><iframe width="660" height="615" src="interactive_georgia" title="Interactive Georgia Map" frameborder="0"></iframe></center>
 
-written in red:
-On the map below
-Link to spreadsheet, how to edit and rerun map code
-Most flippable counties" **NEED TO ADD THIS HERE** written in red in actual doc 
 
 ## Data Collection and Link to Spreadsheet
 Our election result data collection was primarily pulled from the follwing sites: 
- <OL>
-<LI>Georgia Secretary of State Website 
-<UL>
-<LI>https://results.enr.clarityelections.com/GA/
-</UL>
-<LI>Dave Leip's Atlas of U.S. Elections 
-<UL>
-<LI>https://uselectionatlas.org/RESULTS/
-</UL>
- <LI>Washington Post's Election Reporting  
-<UL>
-<LI>https://www.washingtonpost.com/elections/election-results/georgia-senate-runoffs-2021/
-</UL>
-</OL>
-
-<UL>
-<LI>have we gotten confirmation for sharing the data site? Check Slack! 
-</UL>
-
+- Georgia Secretary of State Website: https://results.enr.clarityelections.com/GA/
+- Dave Leip's Atlas of U.S. Elections: https://uselectionatlas.org/RESULTS/
+- Washington Post's Election Reporting: https://www.washingtonpost.com/elections/election-results/georgia-senate-runoffs-2021/
  
 ## Spreadsheet Calculations Explained
- <OL>
-<LI>To calculate if a given political area subdivision currently already has a Democarat in office, we used the following: 
-<UL>
-<LI>IF() function, = IF(J2 > K2, 1, 0)
-<LI>where, J2 is a cell within the column listing the # of Democratic votes 
-<LI>where, K2 is a cell within the column listing the # of Republican votes 
-<LI>Conditional Statement used: insert latex statement 
-</UL>
-<LI>To calculate the democratic strength of a given political area subdivision, we used the following: 
-<UL>
-<LI>SUM()function to compute the arithmetic mean, =sum(M2, U2, Q2, I2)/4
-<LI>M2, U2, Q2, I2 are all cells within the columns listing the expression below for each respective election cycle
-<LI>Expression: 
-</UL>
- <LI>Next, we computed the flippability score. To do this, a more complex conditional using the IF() function is needed, which corresponds to the table listed above **say which section it is listed in!**
-<UL>
-<LI>=IF(C2 = 1, 0, IF(D2 < 34.99, 1, IF(D2 < 39.99, 2 ,IF(D2 < 44.99, 3, IF(D2 < 47.49, 4, IF(D2 < 49.99, 5, 6))))))
-<LI>"C2" is a cell within the column which lists a 0 if the current political office is held by a Republican and a 1 if it is otherwise held by a Democrat  
-<LI>D2 is a cell in the column listing the Democratic Strength 
-</UL>
-</OL>
+To calculate if a given political area subdivision currently already has a Democarat in office, we used the following: 
+
+IF() function, = IF(J2 > K2, 1, 0)
+- where, J2 is a cell within the column listing the # of Democratic votes 
+- where, K2 is a cell within the column listing the # of Republican votes 
+
+Conditional Statement used: insert latex statement 
+
+To calculate the democratic strength of a given political area subdivision, we used the following: 
+SUM()function to compute the arithmetic mean, =sum(M2, U2, Q2, I2)/4
+- M2, U2, Q2, I2 are all cells within the columns listing the expression below for each respective election cycle
+Expression: 
+
+Next, we computed the flippability score. To do this, a more complex conditional using the IF() function is needed, which corresponds to the table listed above **say which section it is listed in!**
+
+- =IF(C2 = 1, 0, IF(D2 < 34.99, 1, IF(D2 < 39.99, 2 ,IF(D2 < 44.99, 3, IF(D2 < 47.49, 4, IF(D2 < 49.99, 5, 6))))))
+- "C2" is a cell within the column which lists a 0 if the current political office is held by a Republican and a 1 if it is otherwise held by a Democrat  
+- D2 is a cell in the column listing the Democratic Strength 
 
 <!DOCTYPE html>
 <html>
@@ -93,11 +70,7 @@ Our election result data collection was primarily pulled from the follwing sites
     <p>insert latex equation or image here! use this code for number 1 and 2 in this section (note for ambika)</p>
   </body>
 </html>
- 
- 
 
- 
- 
 
 ## Top 20 Most Flippable Counties List 
 Given the above calculations performed on Georgia counties for the 2016 (Clinton and Trump ) and 2020 (Biden and Trump) presidential elections, the 2018 midterm gubernatorial elections (Abrams and Kemp), and the 2021 U.S. Senate Runoff election (Ossoff and Perdue), a list of the top 20 counties with the highest flippability scores are listed below:
