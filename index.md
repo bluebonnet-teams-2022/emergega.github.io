@@ -55,7 +55,7 @@ To calculate the democratic strength of a given political area subdivision, we u
 SUM()function to compute the arithmetic mean, =sum(M2, U2, Q2, I2)/4
 - M2, U2, Q2, I2 are all cells within the columns listing the expression below for each respective election cycle
 
-**Expression: **
+**Expression:**
 
 Next, we computed the flippability score. To do this, a more complex conditional using the IF() function is needed, which corresponds to the table listed above.
 
