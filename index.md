@@ -62,15 +62,6 @@ Next, we computed the flippability score. To do this, a more complex conditional
 - "C2" is a cell within the column which lists a 0 if the current political office is held by a Republican and a 1 if it is otherwise held by a Democrat  
 - D2 is a cell in the column listing the Democratic Strength 
 
-<!DOCTYPE html>
-<html>
-  <head>
-  </head>
-  <body>
-    <p>insert latex equation or image here! use this code for number 1 and 2 in this section (note for ambika)</p>
-  </body>
-</html>
-
 
 ## Top 20 Most Flippable Counties List 
 Given the above calculations performed on Georgia counties for the 2016 (Clinton and Trump ) and 2020 (Biden and Trump) presidential elections, the 2018 midterm gubernatorial elections (Abrams and Kemp), and the 2021 U.S. Senate Runoff election (Ossoff and Perdue), a list of the top 20 counties with the highest flippability scores are listed below:
