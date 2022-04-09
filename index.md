@@ -29,7 +29,7 @@ Using Democratic strength, we then created a flippability score, which is a meas
 Political subdivisions already currently under Democratic control are denoted as 0 on the flippability scale.
 
 
-## Color Map Display Explanation
+## Color Map Display Explained
  
 On our color map, the flippability score is translated with the intensity (pale to dark) of the purple color of each political area subdivision.
  
