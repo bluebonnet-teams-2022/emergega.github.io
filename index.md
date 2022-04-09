@@ -7,13 +7,10 @@ Marcelina, Rena, Ambika, Khushi, Lois
 
 For the purpose of our analysis, we computed Democratic strength, a metric expressed as a percentage that measures the level of partisan strength of the Democratic Party given the election results within a given political subdivision (i.e. county, state senate district, state house district, etc.).
 
-In order to determine Democratic strength, we first collected election results for the last three election cycles for each political subdivision; we gathered the following data: 
-
-- County-level presidential election results to compute Democratic strength of each county
-- Congressional district-level presidential election results to compute Democratic strength of each congressional district
-- State Senate election results to compute Democratic strength of each State Senate district
-- State House election results to compute Democratic strength of each State House district
-- District Attorney election results to compute Democratic strength of each judicial circuit
+In order to determine Democratic Strength, we first collected election results for the last three election cycles for each political subdivision; we gathered 
+(1) county-level presidential election results to compute Democratic strength of each county for years 2020 and 2016, 
+(2) county-level US Senate election results for the 2021 Ossoff v. Perdue election
+(3) county-level State Governor election results for the 2018 Abrams v. Kemp election
 
 
 To calculate Democratic strength, we computed the average of the two-party vote for each political subdivision as follows:
