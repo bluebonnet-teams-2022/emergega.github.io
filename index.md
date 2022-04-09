@@ -5,24 +5,24 @@ Marcelina, Rena, Ambika, Khushi, Lois
 
 ## Flippability Score and Democratic Strength Computation Explanations
 
-For the purpose of our analysis, we computed Democratic strength, a metric expressed as a percentage that measures the level of partisan strength of the Democratic Party given the election results within a given political subdivision (i.e. county, state senate district, state house district, etc.).
+1) For the purpose of our analysis, we computed **Democratic strength**, **a metric** expressed as a percentage **that measures the level of partisan strength of the Democratic Party given the election results** within a given political subdivision (i.e. county, state senate district, state house district, etc.).
 
-In order to determine Democratic Strength, we first collected election results for the last three election cycles for each political subdivision; we gathered 
+1a) In order to determine Democratic Strength, we first collected election results for the last three election cycles for each political subdivision; **we gathered election data from :**
 
-(1) county-level presidential election results to compute Democratic strength of each county for years 2020 and 2016, 
+* county-level presidential election results to compute Democratic strength of each county for years 2020 and 2016, 
 
-(2) county-level US Senate election results for the 2021 Ossoff v. Perdue election,
+* county-level US Senate election results for the 2021 Ossoff v. Perdue election,
 
-(3) county-level State Governor election results for the 2018 Abrams v. Kemp election
+* county-level State Governor election results for the 2018 Abrams v. Kemp election
 
 
-To calculate Democratic strength, we computed the average of the two-party vote for each political subdivision as follows:
+2) To calculate Democratic strength, we computed the average of the two-party vote for each political subdivision as follows:
 
 <script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 <p><span class="math display">\[y = \frac{a}{b} + c^2 + d\]</span></p>
 
-Using Democratic strength, we then created a flippability score, which is a measure that determines the likelihood of flipping a political subdivision from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. 
+3) Using Democratic strength, we then created a flippability score, which is a measure that determines the likelihood of flipping a political subdivision from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. 
  
 <center><iframe width="500" height="400" src="flip_chart.png" title="Flippability Chart" frameborder="0"></iframe></center>
 
@@ -38,9 +38,9 @@ On our color map, the flippability score is translated with the intensity (pale 
 
 ## Data Collection and Link to Spreadsheet
 Our election result data collection was primarily pulled from the follwing sites: 
-- Georgia Secretary of State Website: https://results.enr.clarityelections.com/GA/
-- Dave Leip's Atlas of U.S. Elections: https://uselectionatlas.org/RESULTS/
-- Washington Post's Election Reporting: https://www.washingtonpost.com/elections/election-results/georgia-senate-runoffs-2021/
+* Georgia Secretary of State Website: https://results.enr.clarityelections.com/GA/
+* Dave Leip's Atlas of U.S. Elections: https://uselectionatlas.org/RESULTS/
+* Washington Post's Election Reporting: https://www.washingtonpost.com/elections/election-results/georgia-senate-runoffs-2021/
  
 ## Spreadsheet Calculations Explained
 To calculate if a given political area subdivision currently already has a Democarat in office, we used the following: 
