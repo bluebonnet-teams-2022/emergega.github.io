@@ -75,7 +75,7 @@ INSERT MAP HERE
 <!-- <center><iframe width="300" height="429" src="" title="5k Filter Top 20 Flippable Counties" frameborder="0"></iframe></center> -->
 
 ### Top 20 Most Flippable Counties List - Taking into Account Local Political Offices
-
+To best determine which counties to prioritize future recruitment in, we also collected data regarding the party of the county's Clerk of Superior Court and Tax Comissioner offices, which are much more local roles, since they are at the county level (as opposed to Governor, US Senator, or President). Below is a list of the top 20 most flippable counties where there is a Republican in at least one of these offices **and** the county did not vote for Biden in 2020 and does not have a population size smaller than 5000.
 
 INSERT MAP HERE
 <!-- <center><iframe width="300" height="429" src="" title="5k Filter Top 20 Flippable Counties" frameborder="0"></iframe></center> -->
