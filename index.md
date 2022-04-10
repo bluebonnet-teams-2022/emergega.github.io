@@ -51,7 +51,7 @@ Our election result data collection was primarily pulled from the follwing sites
 * [Dave Leip's Atlas of U.S. Elections](https://uselectionatlas.org/RESULTS/)
 * [Washington Post's Election Reporting](https://www.washingtonpost.com/elections/election-results/georgia-senate-runoffs-2021/)
 
-The relevant data and computations explained is hosted/performed on a [Google Sheets](https://docs.google.com/spreadsheets/d/1bVX-4I39reLE3f5CCt2wAaGsLF5hJ_UcgSB6As4XY7U/edit?usp=sharing)(sheet named "County"): 
+The relevant data and computations explained is hosted/performed on a [Google Sheets](https://docs.google.com/spreadsheets/d/1bVX-4I39reLE3f5CCt2wAaGsLF5hJ_UcgSB6As4XY7U/edit?usp=sharing) (sheet named "County"). This data is also what the R code pulls from when populating the interactive color map. 
 
 
 ## Top 20 Most Flippable Counties List 
@@ -60,15 +60,27 @@ Given the above calculations performed on Georgia counties for the 2016 (Clinton
 <center><iframe width="300" height="429" src="top20.png" title="Top 20 Flippable Counties" frameborder="0"></iframe></center>
 
 ## Meet Our Team! 
-We are a team of 5 Blue Bonnet Fellows working with the Emerge GA 527 Team and Maggie Chambers of Georgia branch of the Emerge organization! The Emerge Organization is a nonprofit aiming to recruit and train women and minorities to run for local offices. 
+We are a team of 5 Bluebonnet Data Fellows working with the Emerge GA 527 Team and Maggie Chambers of Georgia branch of the Emerge organization! The Emerge Organization is a nonprofit aiming to recruit and train women and minorities to run for local offices. 
 - Marcelina is an Elections Researcher at BallotReady and a recent Smith College graduate. 
 - [Rena](https://www.linkedin.com/in/renaaliu/) is a recent graduate from Johns Hopkins University, studying computer science and social policy. She’s super passionate about applying her technical skills to social impact initiatives, and excited to work with you all before joining Microsoft full-time in August. 
 - Ambika is a current junior at Rutgers University, studying computer science and minoring in business and cognitive science. She is excited to apply her technical skills using political data and being a part of this team! 
 - Khushi is a sophomore at Rutgers University, majoring in computer science and minoring in cognitive science. She’s interested in the intersection of tech & politics and very excited to get started on this data team!
 - Lois is working as a financial analyst in Corporate America by day and a political organizer by nights/weekends. She is a graduate of the University of Virginia (Go Hoos!), where she studied Public Policy and Business. She is excited to be making her foray in working with political data with Emerge Georgia, with hopes to one day make it her full-time job.
 
+## Appendix
+### Top 20 Most Flippable Counties List - Taking into Account County Population
+We are also in the process of creating a color map which can filter out some counties based on (a user inputted) population size. As a proof of concept, below is top 20 list of most flippable counties where counties with a population size under 5000 are greyed out. 
 
-## Spreadsheet Calculations Explained
+INSERT MAP HERE
+<!-- <center><iframe width="300" height="429" src="" title="5k Filter Top 20 Flippable Counties" frameborder="0"></iframe></center> -->
+
+### Top 20 Most Flippable Counties List - Taking into Account Local Political Offices
+
+
+INSERT MAP HERE
+<!-- <center><iframe width="300" height="429" src="" title="5k Filter Top 20 Flippable Counties" frameborder="0"></iframe></center> -->
+
+### Spreadsheet Calculations Explained
 To calculate if a given county currently already has a Democarat in office, we used the following: 
 
 IF() function, = IF(J2 > K2, 1, 0)
