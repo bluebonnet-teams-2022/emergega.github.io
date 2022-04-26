@@ -46,7 +46,7 @@ On our color map, the flippability score is translated with the intensity (pale 
 
 
 ## Data Collection and Link to Spreadsheet
-Our election result data collection was primarily pulled from the follwing sites: 
+Our election result data collection was primarily pulled from the following sites: 
 * [Georgia Secretary of State Website](https://results.enr.clarityelections.com/GA/)
 * [Dave Leip's Atlas of U.S. Elections](https://uselectionatlas.org/RESULTS/)
 * [Washington Post's Election Reporting](https://www.washingtonpost.com/elections/election-results/georgia-senate-runoffs-2021/)
