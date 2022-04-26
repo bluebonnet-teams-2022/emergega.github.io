@@ -80,7 +80,7 @@ To best determine which counties to prioritize future recruitment in, we also co
 INSERT LIST HERE
 
 ### Spreadsheet Calculations Explained
-To calculate if a given county currently already has a Democarat in office, we used the following: 
+To calculate if a given county currently already has a Democrat in office, we used the following: 
 
 IF() function, = IF(J2 > K2, 1, 0)
 - where, J2 is a cell within the column listing the # of Democratic votes 
