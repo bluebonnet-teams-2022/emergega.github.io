@@ -54,7 +54,7 @@ Our election result data collection was primarily pulled from the following site
 More specifically, the election data we collected and the source of each are listed below:
 * **Local Offices at the County Level** data (County Clerk of Superior Court and Tax Commissioner) used [GA Secretary of State Data](https://results.enr.clarityelections.com/GA/105369/web.264614/#/access-to-races) from the Nov 2020 election broken down by county   
 * **2020 Presidential Election** data used [Dave Leip’s Atlas of U.S. Elections](https://uselectionatlas.org/RESULTS/) for Georgia, broken down by county  
-* **2021 Federal Senate Election** (Ossoff v. Perdue) data used [Washington Post’s Election Reporting](https://www.washingtonpost.com/elections/election-results/georgia-senate-runoffs-2021/), broken down by county  
+* **2021 U.S. Senate Election** (Ossoff v. Perdue) data used [Washington Post’s Election Reporting](https://www.washingtonpost.com/elections/election-results/georgia-senate-runoffs-2021/), broken down by county  
 
 The relevant data and computations explained is hosted/performed on a [Google Sheets](https://docs.google.com/spreadsheets/d/1bVX-4I39reLE3f5CCt2wAaGsLF5hJ_UcgSB6As4XY7U/edit?usp=sharing) (sheet named "County"). This data is also what the R code pulls from when populating the interactive color map. 
 
