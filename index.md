@@ -6,7 +6,9 @@ A Bluebonnet Data Fellowship Project by the Emerge GA 527 Team - Marcelina, Rena
 The Emerge GA 527 Team (from the January 2022 cohort of Bluebonnet Data fellows) has been working with Maggie Chambers of Emerge Georgia (part of the Emerge America network), which recruits and trains self-identified Democratic women, primarily women of the New American Majority, to run for political office. The team’s Bluebonnet fellows are Marcelina, Rena, Ambika, Khushi, and Lois.
 
 
-Our primary project has been collecting, computing, and visualizing past election data to create an interactive color map displaying the “flippability” of each Georgia county, as defined by a given county’s Democratic Party strength (the % of people in that county who have voted for a Democrat in previous presidential, US senate, and gubernatorial races) despite that county not voting Biden in the 2020 election. 
+Our primary project has been collecting, computing, and visualizing past election data to create an interactive color map displaying the “flippability” of each Georgia county, as defined by a given county’s Democratic Party strength (the % of people in that county who have voted for a Democrat in previous presidential, US Senate, and gubernatorial races) despite that county not voting Biden in the 2020 election.
+
+"Flippability" Definition:  We are measuring the flippability of counties that voted for Republicans in 2020, not all Georgia counties (since the Biden counties are not applicable).
 
 For example, if county X did not vote for Biden in 2020 but has had a strong turnout for Democratic candidates in the 2021 senate election, 2018 gubernatorial election, and 2016 presidential election, county X would be assigned a high flippability score.
 
@@ -15,7 +17,7 @@ Emerge GA plans to use these flippability scores to prioritize which counties to
 
 ## Explanation of the Computation of Flippability Score and Democratic Strength
 
-1) We computed **Democratic strength** as **a metric** expressed as a percentage **that measures the level of partisan strength of the Democratic Party given the election results** within a the county.
+1) We computed **Democratic strength** as **a metric** expressed as a percentage **that measures the level of partisan strength of the Democratic Party given the election results** within the county.
 
 1a) In order to determine Democratic Strength, we first collected election results for each county from:
 
