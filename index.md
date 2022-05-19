@@ -3,7 +3,8 @@
 A Bluebonnet Data Fellowship Project by the Emerge GA 527 Team - Marcelina, Rena, Ambika, Khushi, Lois
 
 ## Background
-The Emerge GA 527 Team (from the January 2022 cohort of Bluebonnet Data fellows) has been working with Maggie Chambers of the Georgia branch of the Emerge America organization, a network aiming to recruit and train women and minorities to run for (primarily local) political offices. The team’s Bluebonnet fellows are Marcelina, Rena, Ambika, Khushi, and Lois.
+The Emerge GA 527 Team (from the January 2022 cohort of Bluebonnet Data fellows) has been working with Maggie Chambers of Emerge Georgia (part of the Emerge America network), which recruits and trains self-identified Democratic women, primarily women of the New American Majority, to run for political office. The team’s Bluebonnet fellows are Marcelina, Rena, Ambika, Khushi, and Lois.
+
 
 Our primary project has been collecting, computing, and visualizing past election data to create an interactive color map displaying the “flippability” of each Georgia county, as defined by a given county’s Democratic Party strength (the % of people in that county who have voted for a Democrat in previous presidential, US senate, and gubernatorial races) despite that county not voting Biden in the 2020 election. 
 
