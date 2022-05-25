@@ -64,7 +64,9 @@ The relevant data and computations explained is hosted/performed on a [Google Sh
 ## Top 20 Most Flippable Counties List 
 Given the above calculations performed on Georgia counties for the 2016 (Clinton and Trump) and 2020 (Biden and Trump) presidential elections, the 2018 midterm gubernatorial elections (Abrams and Kemp), and the 2021 U.S. Senate Runoff election (Ossoff and Perdue), a list of the top 20 counties with the highest flippability scores are listed below:
  
-<center><iframe width="300" height="429" src="top20.png" title="Top 20 Flippable Counties" frameborder="0"></iframe></center>
+<center><iframe width="384" height="1190" src="top20flip.png" title="Top 20 Flippable Counties" frameborder="0"></iframe></center>
+
+Counties with a population under 5000 have been excluded.
 
 ## Meet Our Team! 
 We are a team of 5 Bluebonnet Data Fellows working with the Emerge GA 527 Team and Maggie Chambers of Georgia branch of the Emerge organization! The Emerge Organization is a nonprofit aiming to recruit and train women and minorities to run for local offices. 
