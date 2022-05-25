@@ -35,7 +35,7 @@ Emerge GA plans to use these flippability scores to prioritize which counties to
 
 3) Using Democratic strength, we then created a **flippability score**, a metric which determines the likelihood of flipping the county from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. 
  
-<center><iframe width="500" height="400" src="flip_chart.png" title="Flippability Chart" frameborder="0"></iframe></center>
+<center><iframe width="500" height="400" src="flipchart.png" title="Flippability Chart" frameborder="0"></iframe></center>
 
 Political subdivisions already currently under Democratic control are denoted as 0 on the flippability scale.
 
