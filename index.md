@@ -33,7 +33,7 @@ Emerge GA plans to use these flippability scores to prioritize which counties to
 <center><iframe width="1000" height="126" src="demstrength_equation.png" title="Democratic Strength Equation" frameborder="0"></iframe></center>
 
 
-3) Using Democratic strength, we then created a **flippability score**, a metric which determines the likelihood of flipping the county from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. 
+3) Using Democratic strength, we then created a **flippability score**, a metric that determines the likelihood of flipping the county from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. 
  
 <center><iframe width="500" height="400" src="flipchart.png" title="Flippability Chart" frameborder="0"></iframe></center>
 
