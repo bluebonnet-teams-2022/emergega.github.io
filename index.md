@@ -42,15 +42,23 @@ We are only interested in measuring the flippability of counties where the Repub
 For example, if county X did not vote for Biden in 2020 but did have a strong turnout for Democratic candidates in the 2021, 2018, and 2016 elections, county X would then be assigned a high Flippability Score.
 
 We additionally computed a secondary Flippability Score with a greater focus on local elections. The election data, Democratic Strength calculations, population thresholding, and score thresholding stay the same, but Instead of eliminating some counties based on if the county voted for Biden in 2020, we check the local election results from 2020 to determine which counties are relevant to be considered for flippability. 
-//////
 
-  
+We collected the two-party results of the County Clerk of Superior Court and County Tax Commissioner offices from the November 2020 election, and eliminated counties if they voted for Democrats in both of these offices.
 
-
-2) To calculate Democratic strength, we computed the average of the two-party vote for each county across the above elections as follows:
+  To calculate Democratic strength, we computed the average of the two-party vote for each county across the above elections as follows:
 
 <center><iframe width="1000" height="126" src="demstrength_equation.png" title="Democratic Strength Equation" frameborder="0"></iframe></center>
 
+## List of Top 20 Most Flippable Counties
+Below is the list where we have ranked the counties based on our computed Flippability Scores:
+[Screenshot of list]
+You can find our detailed computations on this spreadsheet, and further explanation on this ReadMe and tutorial video.
+* [Link to spreadsheet]
+* [Link to readMe google doc]
+* [link to video]
+
+## Explanations of the Color Map Display
+//
 
 3) Using Democratic strength, we then created a **flippability score**, a metric that determines the likelihood of flipping the county from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. 
  
