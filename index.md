@@ -16,13 +16,35 @@ To achieve this, we began our project by collecting, computing, and visualizing 
 
 1) We computed **Democratic strength** as **a metric** expressed as a percentage **that measures the level of partisan strength of the Democratic Party given the election results** within the county.
 
-1a) In order to determine Democratic Strength, we first collected election results for each county from:
-
+We collected election results for each county from:
 * The 2020 and 2016 presidential elections, 
 
 * The 2021 Ossoff v. Perdue US Senate election,v
 
 * The 2018 Abrams v. Kemp Georgia State Governor election
+
+Using Democratic Strength, we then created a Flippability Score, a metric that determines the likelihood of flipping the county from Republican to Democratic control, ranging from 1 as the least flippable to 6 as the most flippable.
+
+To compute the Flippability Score, each county is: 
+  1. Checked to meet the **population** threshold, which we’ve set the lower bound to be 5000. Any county with a population less than that is scored “N/A (Population below  threshold)”.
+
+  2. Determined **if the county voted for Biden in 2020**. If so, this county is scored as “N/A (Already voted for Biden)”, which no longer makes it relevant to be considered for flippability. 
+  3. If not eliminated based on step 1 or 2, the county is then categorized into a score of 1-6 depending on the *Democratic Strength* metric. 
+        a. Score of 1: Democratic Strength % ranging from 0 - 34.99%
+        b. Score of 2: Democratic Strength % ranging from 35 - 39.99%  
+        c. Score of 3: Democratic Strength % ranging from 40 - 44.99%  
+        d. Score of 4: Democratic Strength % ranging from 45 - 47.49%
+        e. Score of 5: Democratic Strength % ranging from 47.5 - 49.99% 
+        f. Score of 6: Democratic Strength % ranging from 50 - 100% 
+        
+We are only interested in measuring the flippability of counties where the Republican party won the presidential vote in 2020 as Emerge’s current focus is on flipping counties from red to blue and not deepening Democratic strongholds.
+
+For example, if county X did not vote for Biden in 2020 but did have a strong turnout for Democratic candidates in the 2021, 2018, and 2016 elections, county X would then be assigned a high Flippability Score.
+
+We additionally computed a secondary Flippability Score with a greater focus on local elections. The election data, Democratic Strength calculations, population thresholding, and score thresholding stay the same, but Instead of eliminating some counties based on if the county voted for Biden in 2020, we check the local election results from 2020 to determine which counties are relevant to be considered for flippability. 
+//////
+
+  
 
 
 2) To calculate Democratic strength, we computed the average of the two-party vote for each county across the above elections as follows:
