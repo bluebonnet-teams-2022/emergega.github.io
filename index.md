@@ -51,14 +51,81 @@ We collected the two-party results of the County Clerk of Superior Court and Cou
 
 ## List of Top 20 Most Flippable Counties
 Below is the list where we have ranked the counties based on our computed Flippability Scores:
-[Screenshot of list]
+- [Screenshot of list]
 You can find our detailed computations on this spreadsheet, and further explanation on this ReadMe and tutorial video.
 * [Link to spreadsheet]
 * [Link to readMe google doc]
 * [link to video]
 
 ## Explanations of the Color Map Display
-//
+To visualize the Flippability Score for each county across the entire state, we created a color map where different shades of purple (pale to dark) correspond to the spectrum of scores (low to high). The interactive map was created using Plotly in R.
+
+//INSERT MAP HERE [COLOR MAP HERE → normal purple color map, original]
+
+Given that the project sets out to show the scores of counties to supplement Emerge’s existing strategy on candidate recruitment, and due to how we computed the score itself, the color map will only shade counties:
+  1. That exceed 5,000 (we could only accommodate one set population threshold at this time) in population;
+
+  2. Where Republicans won in the 2020 presidential election. 
+
+Eliminating counties that meet one or both of these conditions helps focus Emerge’s resources in counties where there are more opportunities for recruitment.
+
+Nonetheless, we have added map visualizations of the excluded counties to add context and understanding of their geographic distribution and/or pattern for Emerge’s current and future endeavors.
+
+[Insert “8 counties have population less than 5k” map]
+The above map shades counties where the population is below 5,000. They include:
+{insert chart list here}
+
+[Insert “ 22 counties voted for Biden in 2020” map]
+The above map shows 22 counties that voted Democratic in the 2020 presidential election. They include:
+
+[INSERT TWO MAPS HERE^] 
+
+
+## Candidate Priorities 
+To help candidates better understand voter behavior and shape their campaign priorities, we analyzed 2018 exit polls data to create candidate profiles on voter demographic information as well as general opinion on a variety of political topics.
+
+### Voters’ Political Preferences: Analysis
+In order to determine voters’ political preferences in the most flippable counties (all counties that voted for Trump in 2020 with the scores of 3-6, or all counties that voted for Trump in 2020 with the Democratic strength of a least 40%), we utilized a 2018 survey conducted by YouGov, results of which were subsequently published by the Cooperative Congressional Election Study. We decided to opt for the 2018 poll results since no post-2018 CCES survey would allow us to conduct a county-level analysis. The sample size of our general dataset equals 108, and we will be referring to all respondents as voters in our analysis, regardless of whether they did or did not vote in the most recent elections.
+
+### Voting, Ideological, and Party Preference
+In the most flippable 16 counties, around 75% of voters cast their ballots in the 2016 general election, and nearly half (**49%**) of voters cast their ballots **early** in-person. From those who answered the question on presidential candidate preference (81), around ***52%** of voters said they had cast their ballots for Donald Trump in 2016*, compared to ***33%** who voted for Hillary Clinton that year*. At the same time, voters in these counties overwhelmingly identify as Republicans and conservatives, as shown in the tables below:
+
+*Party Preference of Voters in the Most Flippable Counties*
+{insert table here}
+
+
+*Political Ideology of Voters in the Most Flippable Counties*
+{insert table here}
+
+As indicated above, 39% of voters identify as Republicans, and 47% of voters identify as conservatives. There is also a considerable bloc of voters who identify as Independents and/or moderates; 32% describe themselves as Independents or leaning Independents, and 30% describe themselves as moderates.
+
+### Demographic Profile
+Demographically, about **61%** of voters in these counties are white, **31%** are Black, and **5%** are Hispanic/Latino, and the majority of voters are either high school graduates or have completed some college, as shown in the table below.
+
+*Education Levels of Voters in the Most Flippable Counties*
+[insert table here]
+
+Moreover, in the aforementioned counties, the median income is within the $60,000-$69,999 range, and the age distribution of voters is presented in the table below.
+
+*Age Distribution of Voters in the Most Flippable Counties*
+[insert table here]
+
+Finally, the median age of voters in the most flippable counties is **49**.
+
+###Policy Positions
+
+Generally, voters in the most flippable counties are supportive of lower corporate tax rates, Medicare for All, and increased spending on law enforcement, as shown in the tables below.
+
+In detail, about **59%** of voters, in 2018, supported cutting the corporate tax rate from 39% to 21%. As for Medicare for All, similarly, **59%** supported such health care policy; in the case of law enforcement spending, about **70%** of voters supported increased state funding for related programs.
+
+On race-related issues, about **41%** agree with the statement that generations of slavery and discrimination have created conditions that make it difficult for Black people to work their way out of the lower class, while about **50%** disagree.
+
+###Candidate Profile
+
+Based on these results, Democratic candidates should try and appeal to the Republican base, given the number of Republican and conservative voters in these counties. Notably, we found that the voters in most cases support policy positions more associated with the Republican Party and conservative values, except for the issue of healthcare, where the voters expressed an overwhelming support for Medicare for All. Finally, we recommend that any GOTV efforts should focus on in-person early voting, as we found that 49% of voters had chosen such a method in 2018.
+///////////////////////////////////////////////////////////////
+
+
 
 3) Using Democratic strength, we then created a **flippability score**, a metric that determines the likelihood of flipping the county from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. 
  
