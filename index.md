@@ -12,7 +12,7 @@ The team was tasked with:
 To achieve this, we began our project by collecting, computing, and visualizing past election data to create a measure of Democratic Strength, and in turn a Flippability Score, for each Georgia county. We displayed these scores on an interactive color map. 
 
 
-## Explanation of the Computation of Flippability Score and Democratic Strength
+## Defining Democratic Strength and Flippability Score
 
 1) We computed **Democratic strength** as **a metric** expressed as a percentage **that measures the level of partisan strength of the Democratic Party given the election results** within the county.
 
