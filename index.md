@@ -53,9 +53,9 @@ We collected the two-party results of the County Clerk of Superior Court and Cou
 Below is the list where we have ranked the counties based on our computed Flippability Scores:
 - [Screenshot of list]
 You can find our detailed computations on this spreadsheet, and further explanation on this ReadMe and tutorial video.
-* [Link to spreadsheet]
-* [Link to readMe google doc]
-* [link to video]
+* [Democratic Strength Variables Spreadsheet](https://docs.google.com/spreadsheets/d/1bVX-4I39reLE3f5CCt2wAaGsLF5hJ_UcgSB6As4XY7U/edit#gid=311527563)
+* [Democratic Strength Variables ReadMe](https://docs.google.com/document/d/1e62ffYGvuV6brS6XKNG7lrS-JCA5KrDi5fhfdi45KiE/edit)
+* [Democratic Strength Variables Video Walk Through](https://drive.google.com/file/d/1uneIA1Al-2iH2RhOnii25twAd9n_uNix/view?usp=sharing)
 
 ## Explanations of the Color Map Display
 To visualize the Flippability Score for each county across the entire state, we created a color map where different shades of purple (pale to dark) correspond to the spectrum of scores (low to high). The interactive map was created using Plotly in R.
@@ -112,7 +112,7 @@ Moreover, in the aforementioned counties, the median income is within the $60,00
 
 Finally, the median age of voters in the most flippable counties is **49**.
 
-###Policy Positions
+### Policy Positions
 
 Generally, voters in the most flippable counties are supportive of lower corporate tax rates, Medicare for All, and increased spending on law enforcement, as shown in the tables below.
 
@@ -120,84 +120,28 @@ In detail, about **59%** of voters, in 2018, supported cutting the corporate tax
 
 On race-related issues, about **41%** agree with the statement that generations of slavery and discrimination have created conditions that make it difficult for Black people to work their way out of the lower class, while about **50%** disagree.
 
-###Candidate Profile
+### Candidate Profile
 
 Based on these results, Democratic candidates should try and appeal to the Republican base, given the number of Republican and conservative voters in these counties. Notably, we found that the voters in most cases support policy positions more associated with the Republican Party and conservative values, except for the issue of healthcare, where the voters expressed an overwhelming support for Medicare for All. Finally, we recommend that any GOTV efforts should focus on in-person early voting, as we found that 49% of voters had chosen such a method in 2018.
-///////////////////////////////////////////////////////////////
 
-
-
-3) Using Democratic strength, we then created a **flippability score**, a metric that determines the likelihood of flipping the county from Republican to Democratic control, ranging from 1 as the least flippable to 6 and the most flippable. 
- 
-<center><iframe width="500" height="400" src="flipchart.png" title="Flippability Chart" frameborder="0"></iframe></center>
-
-Counties that voted for Biden in 2020  are denoted as “0 (NA)” on the flippability scale.
-
-## Explanation of the Color Map Display
- 
-On our color map, the flippability score is translated with the intensity (pale to dark) of the purple color of each county. This interactive map was created using Plotly in R.
- 
-<center><iframe width="660" height="615" src="interactive_georgia" title="Interactive Georgia Map" frameborder="0"></iframe></center>
-
-
-## Data Collection and Link to Spreadsheet
-Our election result data collection was primarily pulled from the following sites: 
-* [Georgia Secretary of State Website](https://results.enr.clarityelections.com/GA/)
+## Data Collection Details
+Our election results data (presidential, congressional, gubernatorial [Abrams v. Kemp], US Senate [Ossoff v. Perdue]) was primarily pulled from the following sites:
+*  [Georgia Secretary of State Website](https://results.enr.clarityelections.com/GA/)
 * [Dave Leip's Atlas of U.S. Elections](https://uselectionatlas.org/RESULTS/)
 * [Washington Post's Election Reporting](https://www.washingtonpost.com/elections/election-results/georgia-senate-runoffs-2021/)
+* [Daily Kos Election Data Collection](https://www.dailykos.com/stories/2020/11/19/1163009/-Daily-Kos-Elections-presidential-results-by-congressional-district-for-2020-2016-and-2012)
 
-More specifically, the election data we collected and the source of each are listed below:
-* **Local Offices at the County Level** data (County Clerk of Superior Court and Tax Commissioner) used [GA Secretary of State Data](https://results.enr.clarityelections.com/GA/105369/web.264614/#/access-to-races) from the Nov 2020 election broken down by county   
-* **2020 Presidential Election** data used [Dave Leip’s Atlas of U.S. Elections](https://uselectionatlas.org/RESULTS/) for Georgia, broken down by county  
-* **2021 U.S. Senate Election** (Ossoff v. Perdue) data used [Washington Post’s Election Reporting](https://www.washingtonpost.com/elections/election-results/georgia-senate-runoffs-2021/), broken down by county  
+For local offices at the county level, data was pulled from the official [GA Secretary of State website](https://results.enr.clarityelections.com/GA/105369/web.264614/#/access-to-races), using the 2020 general election results.
 
-The relevant data and computations explained are hosted/performed on a [Google Sheets](https://docs.google.com/spreadsheets/d/1bVX-4I39reLE3f5CCt2wAaGsLF5hJ_UcgSB6As4XY7U/edit?usp=sharing) (sheet named "County"). This data is also what the R code pulls from when populating the interactive color map. 
+For candidate priority profiles, we used the 2018 [Cooperative Election Study](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910/DVN/ZSBZ7K) exit polls dataset.
 
+The relevant data, and the computations explained are hosted/performed on the [Google Sheets](https://docs.google.com/spreadsheets/d/1bVX-4I39reLE3f5CCt2wAaGsLF5hJ_UcgSB6As4XY7U/edit). This data is also what the R code pulls from when populating the interactive color map.
 
-## Top 20 Most Flippable Counties List 
-Given the above calculations performed on Georgia counties for the 2016 (Clinton and Trump) and 2020 (Biden and Trump) presidential elections, the 2018 midterm gubernatorial elections (Abrams and Kemp), and the 2021 U.S. Senate Runoff election (Ossoff and Perdue), a list of the top 20 counties with the highest flippability scores are listed below:
- 
-<center><iframe width="206" height="640" src="top20flip.png" title="Top 20 Flippable Counties" frameborder="0"></iframe></center>
+## Meet Our Team!
+We are a team of 5 Bluebonnet Data Fellows working with the Emerge GA Team and Maggie Chambers of Emerge Georgia. Emerge is a non-profit organization aiming to recruit and train women and minorities to run for local offices.
 
-Counties with a population under 5000 have been excluded.
-
-## Meet Our Team! 
-We are a team of 5 Bluebonnet Data Fellows working with the Emerge GA 527 Team and Maggie Chambers of the Georgia branch of the Emerge organization! The Emerge Organization is a nonprofit aiming to recruit and train women and minorities to run for local offices. 
-- Marcelina is an Elections Researcher at BallotReady and a recent Smith College graduate. 
-- [Rena](https://www.linkedin.com/in/renaaliu/) is a recent graduate from Johns Hopkins University, studying computer science and social policy. She’s super passionate about applying her technical skills to social impact initiatives, and is excited to work with you all before joining Microsoft full-time in August. 
-- Ambika is a current junior at Rutgers University, studying computer science and minoring in business and cognitive science. She is excited to apply her technical skills using political data and be a part of this team! 
-- Khushi is a sophomore at Rutgers University, majoring in computer science and minoring in cognitive science. She’s interested in the intersection of tech & politics and is very excited to get started on this data team!
-- Lois is working as a financial analyst in Corporate America by day and a political organizer by nights/weekends. She is a graduate of the University of Virginia (Go Hoos!), where she studied Public Policy and Business. She is excited to be making her foray in working with political data with Emerge Georgia, with hopes to one day make it her full-time job.
-
-## Appendix
-### Top 20 Most Flippable Counties List - Taking into Account County Population
-We are also in the process of creating a color map that can filter out some counties based on (a user inputted) population size. As a proof of concept, below is the top 20 list of most flippable counties where counties with a population size under 5000 are greyed out. 
-
-INSERT LIST HERE
-<!-- <center><iframe width="300" height="429" src="" title="5k Filter Top 20 Flippable Counties" frameborder="0"></iframe></center> -->
-
-### Top 20 Most Flippable Counties List - Taking into Account Local Political Offices
-To best determine which counties to prioritize future recruitment in, we also collected data regarding the party of the county's Clerk of Superior Court and Tax Commissioner  offices, which are much more local roles, since they are at the county level (as opposed to Governor, US Senator, or President). Below is a list of the top 20 most flippable counties where there is a Republican in at least one of these offices **and** the county did not vote for Biden in 2020 and does not have a population size smaller than 5000.
-
-INSERT LIST HERE
-
-### Spreadsheet Calculations Explained
-To calculate if a given county currently already has a Democrat in office, we used the following: 
-
-IF() function, = IF(J2 > K2, 1, 0)
-- where, J2 is a cell within the column listing the # of Democratic votes 
-- where, K2 is a cell within the column listing the # of Republican votes 
-
-**Conditional Statement used:** insert latex statement 
-
-To calculate the democratic strength of a given political area subdivision, we used the following: 
-SUM()function to compute the arithmetic mean, =sum(M2, U2, Q2, I2)/4
-- M2, U2, Q2, and I2 are all cells within the columns listing the expression below for each respective election cycle
-
-**Expression:**
-
-Next, we computed the flippability score. To do this, a more complex conditional using the IF() function is needed, which corresponds to the table listed above.
-
-- =IF(C2 = 1, 0, IF(D2 < 34.99, 1, IF(D2 < 39.99, 2 ,IF(D2 < 44.99, 3, IF(D2 < 47.49, 4, IF(D2 < 49.99, 5, 6))))))
-- "C2" is a cell within the column that lists a 0 if the current political office is held by a Republican and a 1 if it is otherwise held by a Democrat  
-- D2 is a cell in the column listing the Democratic Strength 
+*  [Marcelina](https://www.linkedin.com/in/marcelinaprzespolewska) (she/her) is an Elections Researcher at BallotReady and a recent Smith College graduate. She will soon begin a graduate program at Sciences Po, further delving into the intersection of electoral politics and technology.
+*  [Rena](https://www.linkedin.com/in/renaaliu/) (she/her) is a recent graduate from Johns Hopkins University, studying computer science and social policy. She’s super passionate about tech policy, responsible AI and applying her technical skills to social impact initiatives. She’ll be joining Microsoft full-time in Seattle in September.
+*  [Ambika](https://www.google.com/url?q=https://www.linkedin.com/in/ambikay/&sa=D&source=docs&ust=1654314370937015&usg=AOvVaw0tDlPqm-s7AtTus9eI3byD) (she/her) is a senior at Rutgers University, studying computer science and minoring in business and cognitive science. She is excited to apply her technical skills using political data and be a part of this team!
+*  [Khushi](https://www.linkedin.com/in/khushidarji/) (she/her) is a junior at Rutgers University, majoring in computer science and minoring in cognitive science. She’s interested in the intersection of tech & politics.
+* [Lois](https://www.linkedin.com/in/lois-lo/) (she/her) is a Hong Kong-born community organizer currently residing in Lake County, IL. She devotes her time to a working-class mutual aid gardening collective that builds food autonomy for the working class, helps heal and strengthen our ecology, and builds people power. She is currently working a waged job as a financial analyst. Through working with Emerge Georgia through this fellowship, she looks forward to gaining fluency in working with electoral data and leveraging any data for a political goal and deepen her understanding of organizations supporting the Democratic party.
