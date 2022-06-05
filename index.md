@@ -83,7 +83,7 @@ The above map shades counties where the population is below 5,000. They include:
 
 <center><iframe width="800" height="445" src="22counties.png" title="Counties That Voted Democratic" frameborder="0"></iframe></center>
 The above map shows 22 counties that voted Democratic in the 2020 presidential election. They include:
-<center><iframe width="250" height="1381" src="22countieslist.png" title="List of 22 Counties" frameborder="0"></iframe></center>
+<center><iframe width="100" height="552" src="22countieslist.png" title="List of 22 Counties" frameborder="0"></iframe></center>
 
 
 ## Candidate Priorities 
