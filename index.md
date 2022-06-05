@@ -30,17 +30,15 @@ To compute the Flippability Score, each county is:
 
   2. Determined **if the county voted for Biden in 2020**. If so, this county is scored as “N/A (Already voted for Biden)”, which no longer makes it relevant to be considered for flippability. 
   3. If not eliminated based on step 1 or 2, the county is then categorized into a score of 1-6 depending on the *Democratic Strength* metric. 
-        a. Score of 1: Democratic Strength % ranging from 0 - 34.99%
-        b. Score of 2: Democratic Strength % ranging from 35 - 39.99%  
-        c. Score of 3: Democratic Strength % ranging from 40 - 44.99%  
-        d. Score of 4: Democratic Strength % ranging from 45 - 47.49%
-        e. Score of 5: Democratic Strength % ranging from 47.5 - 49.99% 
-        f. Score of 6: Democratic Strength % ranging from 50 - 100% 
         <ol type="a">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
+         <li>Score of 1: Democratic Strength % ranging from 0 - 34.99%</li>
+         <li>Score of 2: Democratic Strength % ranging from 35 - 39.99% </li>
+         <li>Score of 3: Democratic Strength % ranging from 40 - 44.99%  </li>
+         <li>Score of 4: Democratic Strength % ranging from 45 - 47.49%</li>
+         <li>Score of 5: Democratic Strength % ranging from 47.5 - 49.99%</li>
+         <li>Score of 6: Democratic Strength % ranging from 50 - 100%</li>
+        </ol>
+        
         
 We are only interested in measuring the flippability of counties where the Republican party won the presidential vote in 2020 as Emerge’s current focus is on flipping counties from red to blue and not deepening Democratic strongholds.
 
