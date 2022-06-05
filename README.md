@@ -1,5 +1,5 @@
 ## Understanding the File Directory -- Helpful Guide"
-All files found in the Website can also be found in our GitHub repository hosted by BlueBonnet on GitHub: https://github.com/bluebonnet-teams-2022/emergega.github.io
+All files found in the Website can also be found in our GitHub repository hosted by BlueBonnet on [this GitHub](https://github.com/bluebonnet-teams-2022/emergega.github.io)
 
 ### Overall Website Content 
 All content seen on the website can also be found in the index.md file in the GitHub directory. The content was edited and compiled into the index.md file through the GitHub repository. 
