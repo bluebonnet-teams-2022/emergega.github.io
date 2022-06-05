@@ -1,3 +1,16 @@
+## Understanding the File Directory -- Helpful Guide"
+All files found in the Website can also be found in our GitHub repository hosted by BlueBonnet on GitHub: https://github.com/bluebonnet-teams-2022/emergega.github.io
+
+### Overall Website Content 
+All content seen on the website can also be found in the index.md file in the GitHub directory. The content was edited and compiled into the index.md file through the GitHub repository. 
+
+### Interactive Map 
+The interactive map code was converted from R to HTML code and then saved in the GitHub repository which can be found under the filename: interactive_georgia.html. 
+Next, using HTML code the interactive map was incorporated into the index.md file. 
+
+### Lists and Equation
+All lists and the equation can be found saved in the Github repository under the following filenames, respectively: flipchart.png, top20flip.png, and demstrength_equation.png.
+
 ## Interactive Electoral Map of Georgia Counties: Visualizing Democratic “Flippability"
 This projects visualizes the Democratic strength of Georgia counties on an interactive map that displays county information in a hover box. 
 
