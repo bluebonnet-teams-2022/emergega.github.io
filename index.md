@@ -32,8 +32,8 @@ To compute the Flippability Score, each county is:
   3. If not eliminated based on step 1 or 2, the county is then categorized into a score of 1-6 depending on the *Democratic Strength* metric. 
         <ol type="a">
          <li>Score of 1: Democratic Strength % ranging from 0 - 34.99%</li>
-         <li>Score of 2: Democratic Strength % ranging from 35 - 39.99% </li>
-         <li>Score of 3: Democratic Strength % ranging from 40 - 44.99%  </li>
+         <li>Score of 2: Democratic Strength % ranging from 35 - 39.99%</li>
+         <li>Score of 3: Democratic Strength % ranging from 40 - 44.99%</li>
          <li>Score of 4: Democratic Strength % ranging from 45 - 47.49%</li>
          <li>Score of 5: Democratic Strength % ranging from 47.5 - 49.99%</li>
          <li>Score of 6: Democratic Strength % ranging from 50 - 100%</li>
