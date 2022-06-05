@@ -122,7 +122,7 @@ On race-related issues, about **41%** agree with the statement that generations 
 
 ### Candidate Profile
 
-Based on these results, Democratic candidates should try and appeal to the Republican base, given the number of Republican and conservative voters in these counties. Notably, we found that the voters in most cases support policy positions more associated with the Republican Party and conservative values, except for the issue of healthcare, where the voters expressed an overwhelming support for Medicare for All. Finally, we recommend that any GOTV efforts should focus on in-person early voting, as we found that 49% of voters had chosen such a method in 2018.
+Based on these results, Democratic candidates should try and appeal to the Republican base, given the number of Republican and conservative voters in these counties. Notably, we found that the voters in most cases support policy positions more associated with the Republican Party and conservative values, except for the issue of healthcare, where the voters expressed an overwhelming support for Medicare for All. Finally, we recommend that any GOTV efforts should focus on in-person early voting, as we found that **49%** of voters had chosen such a method in 2018.
 
 ## Data Collection Details
 Our election results data (presidential, congressional, gubernatorial [Abrams v. Kemp], US Senate [Ossoff v. Perdue]) was primarily pulled from the following sites:
