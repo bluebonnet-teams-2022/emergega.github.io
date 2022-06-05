@@ -77,14 +77,13 @@ Eliminating counties that meet one or both of these conditions helps focus Emerg
 
 Nonetheless, we have added map visualizations of the excluded counties to add context and understanding of their geographic distribution and/or pattern for Emerge’s current and future endeavors.
 
-[Insert “8 counties have population less than 5k” map]
+<center><iframe width="800" height="545" src="8counties.png" title="Counties with Population Below 5,000" frameborder="0"></iframe></center>
 The above map shades counties where the population is below 5,000. They include:
-{insert chart list here}
+<center><iframe width="400" height="267" src="8countieslist.png" title="List of 8 Counties" frameborder="0"></iframe></center>
 
-[Insert “ 22 counties voted for Biden in 2020” map]
+<center><iframe width="800" height="445" src="22counties.png" title="Counties That Voted Democratic" frameborder="0"></iframe></center>
 The above map shows 22 counties that voted Democratic in the 2020 presidential election. They include:
-
-[INSERT TWO MAPS HERE^] 
+<center><iframe width="250" height="1381" src="22countieslist.png" title="List of 22 Counties" frameborder="0"></iframe></center>
 
 
 ## Candidate Priorities 
