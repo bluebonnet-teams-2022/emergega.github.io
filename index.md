@@ -36,6 +36,11 @@ To compute the Flippability Score, each county is:
         d. Score of 4: Democratic Strength % ranging from 45 - 47.49%
         e. Score of 5: Democratic Strength % ranging from 47.5 - 49.99% 
         f. Score of 6: Democratic Strength % ranging from 50 - 100% 
+        <ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
         
 We are only interested in measuring the flippability of counties where the Republican party won the presidential vote in 2020 as Emerge’s current focus is on flipping counties from red to blue and not deepening Democratic strongholds.
 
