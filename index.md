@@ -105,7 +105,7 @@ In the most flippable 16 counties, around 75% of voters cast their ballots in th
 
 
 *Political Ideology of Voters in the Most Flippable Counties*
-<center><iframe width="500" height="188" src="politicalideology.png" title="Political Ideology of Voters in the Most Flippable Counties" frameborder="0"></iframe></center>
+<center><iframe width="500" height="188" src="politicalidealogy.png" title="Political Ideology of Voters in the Most Flippable Counties" frameborder="0"></iframe></center>
 
 As indicated above, 39% of voters identify as Republicans, and 47% of voters identify as conservatives. There is also a considerable bloc of voters who identify as Independents and/or moderates; 32% describe themselves as Independents or leaning Independents, and 30% describe themselves as moderates.
 
