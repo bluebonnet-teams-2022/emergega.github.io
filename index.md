@@ -105,7 +105,7 @@ In the most flippable 16 counties, around 75% of voters cast their ballots in th
 
 
 *Political Ideology of Voters in the Most Flippable Counties*
-{insert table here}
+<center><iframe width="500" height="188" src="politicalideology.png" title="Political Ideology of Voters in the Most Flippable Counties" frameborder="0"></iframe></center>
 
 As indicated above, 39% of voters identify as Republicans, and 47% of voters identify as conservatives. There is also a considerable bloc of voters who identify as Independents and/or moderates; 32% describe themselves as Independents or leaning Independents, and 30% describe themselves as moderates.
 
@@ -113,12 +113,12 @@ As indicated above, 39% of voters identify as Republicans, and 47% of voters ide
 Demographically, about **61%** of voters in these counties are white, **31%** are Black, and **5%** are Hispanic/Latino, and the majority of voters are either high school graduates or have completed some college, as shown in the table below.
 
 *Education Levels of Voters in the Most Flippable Counties*
-[insert table here]
+<center><iframe width="500" height="225" src="educationlevel.png" title="Education Levels of Voters in the Most Flippable Counties" frameborder="0"></iframe></center>
 
 Moreover, in the aforementioned counties, the median income is within the $60,000-$69,999 range, and the age distribution of voters is presented in the table below.
 
 *Age Distribution of Voters in the Most Flippable Counties*
-[insert table here]
+<center><iframe width="500" height="129" src="agedist.png" title="Age Distribution of Voters in the Most Flippable Counties" frameborder="0"></iframe></center>
 
 Finally, the median age of voters in the most flippable counties is **49**.
 
