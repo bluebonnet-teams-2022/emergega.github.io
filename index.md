@@ -1,6 +1,5 @@
 
-# Top 20 Most "Flippable" Georgia Counties: Data Analysis of Voting in Georgia 
-A Bluebonnet Data Fellowship Project by the Emerge GA Team. Team members include Marcelina Przespolewska, Rena Liu, Ambika Yavatkar, Khushi Darji, and Lois Lo.
+# Identifying Opportunities for Democrats in Georgia’s Electoral Landscape: Data Analysis of Recent Voting History in Georgia
 
 ## Introduction
 The Emerge GA Team (from the January 2022 cohort of Bluebonnet Data Fellows) has been working with Maggie Chambers of Emerge Georgia (part of the Emerge America network), which recruits and trains self-identified Democratic women, primarily women of the New American Majority, to run for political office.
@@ -9,19 +8,20 @@ The team was tasked with:
 * Identifying geographic areas of opportunity where Emerge should focus their candidate recruitment; 
 * Understanding voter opinions of each geographic idea to better shape each candidate's campaign priorities.
 
-To achieve this, we began our project by collecting, computing, and visualizing past election data to create a measure of Democratic Strength, and in turn a Flippability Score, for each Georgia county. We displayed these scores on an interactive color map. 
-
+To achieve this, we began our project by collecting and computing past election data to create a measure of *Democratic Strength*, and in turn a *Flippability Score*, for each Georgia county. Ultimately, Democratic Strength was visualized on an interactive color map.
 
 ## Defining Democratic Strength and Flippability Score
 
-1) We computed **Democratic strength** as **a metric** expressed as a percentage **that measures the level of partisan strength of the Democratic Party given the election results** within the county.
+1) We computed Democratic Strength as the average of the Democratic share of the two-party vote within each county in four elections, namely: 
 
-We collected election results for each county from:
-* The 2020 and 2016 presidential elections, 
+      * The 2016 Clinton v. Trump presidential election 
 
-* The 2021 Ossoff v. Perdue US Senate election,v
+      * The 2018 Abrams v. Kemp gubernatorial election
 
-* The 2018 Abrams v. Kemp Georgia State Governor election
+      * The 2020 Biden v. Trump presidential election
+      
+      * The 2021 Ossoff v. Perdue US Senate election
+      
 
 Using Democratic Strength, we then created a Flippability Score, a metric that determines the likelihood of flipping the county from Republican to Democratic control, ranging from 1 as the least flippable to 6 as the most flippable.
 
@@ -44,7 +44,7 @@ We are only interested in measuring the flippability of counties where the Repub
 
 For example, if county X did not vote for Biden in 2020 but did have a strong turnout for Democratic candidates in the 2021, 2018, and 2016 elections, county X would then be assigned a high Flippability Score.
 
-We additionally computed a secondary Flippability Score with a greater focus on local elections. The election data, Democratic Strength calculations, population thresholding, and score thresholding stay the same, but Instead of eliminating some counties based on if the county voted for Biden in 2020, we check the local election results from 2020 to determine which counties are relevant to be considered for flippability. 
+We additionally computed a secondary Flippability Score with a greater focus on local elections. The election data, Democratic Strength calculations, population threshold, and score threshold stay the same, but instead of eliminating some counties based on if the county voted for Biden in 2020, we check the local election results from 2020 to determine which counties are relevant to be considered for flippability. 
 
 We collected the two-party results of the County Clerk of Superior Court and County Tax Commissioner offices from the November 2020 election, and eliminated counties if they voted for Democrats in both of these offices.
 
@@ -53,9 +53,9 @@ We collected the two-party results of the County Clerk of Superior Court and Cou
 <center><iframe width="1000" height="126" src="demstrength_equation.png" title="Democratic Strength Equation" frameborder="0"></iframe></center>
 
 ## List of Top 20 Most Flippable Counties
-Below is the list where we have ranked the counties based on our computed Flippability Scores:
+Below is the list of  ranked based on our computed Flippability Scores:
 
-<center><iframe width="300" height="455" src="top20counties.png" title="Top 20 Flippable Counties" frameborder="0"></iframe></center>
+<center><iframe width="300" height="451" src="top20list.png" title="Top 20 Flippable Counties" frameborder="0"></iframe></center>
 
 
 You can find our detailed computations on the spreadsheet, and further explanation on the ReadMe and tutorial video.
@@ -63,8 +63,8 @@ You can find our detailed computations on the spreadsheet, and further explanati
 * [Democratic Strength Variables ReadMe](https://docs.google.com/document/d/1e62ffYGvuV6brS6XKNG7lrS-JCA5KrDi5fhfdi45KiE/edit)
 * [Democratic Strength Variables Video Walk Through](https://drive.google.com/file/d/1uneIA1Al-2iH2RhOnii25twAd9n_uNix/view?usp=sharing)
 
-## Explanations of the Color Map Display
-To visualize the Flippability Score for each county across the entire state, we created a color map where different shades of purple (pale to dark) correspond to the spectrum of scores (low to high). The interactive map was created using Plotly in R.
+## Explanations of the Color Map 
+To visualize the Democratic Strength for each county across the entire state, we created a map using Tableau in which counties are colored different shades of blue (pale to dark) according to the magnitude of their Democratic Strength Tableau.
 
 <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
 
@@ -73,22 +73,13 @@ To visualize the Flippability Score for each county across the entire state, we 
   height='600px' width='600px' toolbar='bottom' hide-tabs>
 </tableau-viz>
 
-Given that the project sets out to show the scores of counties to supplement Emerge’s existing strategy on candidate recruitment, and due to how we computed the score itself, the color map will only shade counties:
-  1. That exceed 5,000 (we could only accommodate one set population threshold at this time) in population;
+By default, all counties are shaded. Two filters and a search bar, however, are available to users.
+  1. “Biden Won County?” filter: Users can select the checkbox for “0” or “1”, where 0 means that Biden did not win the county in 2020, and 1 meaning that       he did.
 
-  2. Where Republicans won in the 2020 presidential election. 
+  2. “Population as of 2020” filter: Users can move the two sliders on the scale to set a population floor and ceiling that forms the range that                 determines if counties are displayed on the color map.
+  
+  3. The search bar allows users to directly enter the name of a county of interest to pinpoint it on the map
 
-Eliminating counties that meet one or both of these conditions helps focus Emerge’s resources in counties where there are more opportunities for recruitment.
-
-Nonetheless, we have added map visualizations of the excluded counties to add context and understanding of their geographic distribution and/or pattern for Emerge’s current and future endeavors.
-
-<center><iframe width="800" height="545" src="8counties.png" title="Counties with Population Below 5,000" frameborder="0"></iframe></center>
-The above map shades counties where the population is below 5,000. They include:
-<center><iframe width="400" height="267" src="8countieslist.png" title="List of 8 Counties" frameborder="0"></iframe></center>
-
-<center><iframe width="800" height="445" src="22counties.png" title="Counties That Voted Democratic" frameborder="0"></iframe></center>
-The above map shows 22 counties that voted Democratic in the 2020 presidential election. They include:
-<center><iframe width="300" height="552" src="22countieslist.png" title="List of 22 Counties" frameborder="0"></iframe></center>
 
 
 ## Candidate Priorities 
