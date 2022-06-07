@@ -31,5 +31,5 @@ Be sure to install any packages you don’t already have in your R environment. 
 After installing your packages, simply run the entirety of the code starting from loading the various packages, to the last line which saves the interactive map to .html.
 
 ### Credits
-[Technology Accessibility and Educational Attainment: Case Study in Alabama
+Website Template inspired by [Technology Accessibility and Educational Attainment: Case Study in Alabama
 ](https://clparent121.github.io/hci-project-2-team-15/)
