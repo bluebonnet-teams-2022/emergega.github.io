@@ -55,7 +55,7 @@ We collected the two-party results of the County Clerk of Superior Court and Cou
 ## List of Top 20 Most Flippable Counties
 Below is the list where we have ranked the counties based on our computed Flippability Scores:
 
-<center><iframe width="300" height="451" src="top20list.png" title="Top 20 Flippable Counties" frameborder="0"></iframe></center>
+<center><iframe width="300" height="455" src="top20counties.png" title="Top 20 Flippable Counties" frameborder="0"></iframe></center>
 
 
 You can find our detailed computations on the spreadsheet, and further explanation on the ReadMe and tutorial video.
