@@ -13,12 +13,10 @@ To achieve this, we began our project by collecting and computing past election 
 ## Defining Democratic Strength and Flippability Score
 
 1) We computed Democratic Strength as the average of the Democratic share of the two-party vote within each county in four elections, namely: 
-      <ul>
-        <li>The 2016 Clinton v. Trump presidential election </li>
-        <li>The 2018 Abrams v. Kemp gubernatorial election</li>
-        <li>The 2020 Biden v. Trump presidential election</li>
-        <li>The 2021 Ossoff v. Perdue US Senate election</li>
-     </ul>
+* The 2016 Clinton v. Trump presidential election
+* The 2018 Abrams v. Kemp gubernatorial election
+* The 2020 Biden v. Trump presidential election
+* The 2021 Ossoff v. Perdue US Senate election
 
 
 Using Democratic Strength, we then created a Flippability Score, a metric that determines the likelihood of flipping the county from Republican to Democratic control, ranging from 1 as the least flippable to 6 as the most flippable.
