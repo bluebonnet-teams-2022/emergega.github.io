@@ -88,7 +88,7 @@ In order to determine voters’ political preferences in the most flippable coun
 ### Voting, Ideological, and Party Preference
 In the most flippable 16 counties, around 75% of voters cast their ballots in the 2016 general election, and nearly half (**49%**) of voters cast their ballots **early** in-person. From those who answered the question on presidential candidate preference (81), around ***52%** of voters said they had cast their ballots for Donald Trump in 2016*, compared to ***33%** who voted for Hillary Clinton that year*. At the same time, voters in these counties overwhelmingly identify as Republicans and conservatives, as shown in the tables below:
 
-*Party Preference of Voters in the Most Flippable Counties*
+<center>*Party Preference of Voters in the Most Flippable Counties*</center>
 <center><iframe width="500" height="272" src="partypref.png" title="Party Preference of Voters in the Most Flippable Counties" frameborder="0"></iframe></center>
 
 
