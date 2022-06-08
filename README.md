@@ -5,7 +5,7 @@ All files found in the Website can also be found in our GitHub repository hosted
 All content seen on the website can also be found in the index.md file in the GitHub directory. The content was edited and compiled into the index.md file through the GitHub repository. 
 
 ### Interactive Color Map 
-An embed code from the Tableau software for the interactive color map was directly incorporated into the index.md file on github. The map was also then embedded into the website using the Embedding API. 
+An embed code was made available by Tableau for the interactive color map. The code was directly incorporated into the index.md file on github. The map was also incorporated into the website using the Embedding API. 
 
 ### Lists and Equation
 All lists and the equation can be found saved in the Github repository under the following filenames, respectively: flipchart.png, top20flip.png, and demstrength_equation.png.
@@ -17,11 +17,9 @@ This projects visualizes the Democratic strength of Georgia counties on an inter
 Google Spreadsheets was used in the data collection and analysis process. Tableau was used to create the color map. The end result was published to Tableau Public. 
 
 ### Structure of the Code
-Our team collected an extensive amount of Georgia vote count data at various levels. The result served as the base data set to which new data was joined and off of which visualization was created.
+Our team collected an extensive amount of Georgia vote count data at various levels. The result served as the base data set off of which the visualization was created.
 
-The geometrical data was available within Tableau. 
-
-The interactive map was created using Tableau.
+The geometrical data was available within Tableau. Depending on your version of Tableau, custom geocoding may be required as geographic areas below a certain population threshold isn't recognized by the software. You can find a file named CountyGeocoding.csv with the latitude and longitude data of each Georgia county collected by our Team. After importing custom geocoding (Map > Import Custom Geocoding) in Tableau, the spreadsheet of Georgia voting data was imported into Tableau to create the interactive map.
 
 ### Installation
 Download Tableau from its website in order to view the color map file locally on your desktop. Alternatively, no installation is needed to view the Tableau color map online via [public.tableau.com](https://public.tableau.com/views/GeorgiaCountiesDemocraticStrengthColorMap/ColorMap-byDStrength?:language=en-US&:display_count=n&:origin=viz_share_link)
