@@ -10,7 +10,7 @@ An embed code was made available by Tableau for the interactive color map. The c
 ### Lists and Equation
 All lists and the equation can be found saved in the Github repository under the following filenames, respectively: flipchart.png, top20flip.png, and demstrength_equation.png.
 
-## Interactive Electoral Map of Georgia Counties: Visualizing Democratic “Flippability"
+## Interactive Color Map of Georgia Counties: Visualizing Democratic “Flippability"
 This projects visualizes the Democratic strength of Georgia counties on an interactive map that displays county information in a hover box. 
 
 ### Tech Used
