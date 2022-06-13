@@ -19,6 +19,10 @@ We computed Democratic Strength as the average of the Democratic share of the tw
 * The 2021 Ossoff v. Perdue US Senate election
 
 
+ To calculate Democratic strength, we computed the average of the two-party vote for each county across the above elections as follows:
+
+<center><iframe width="1000" height="126" src="demStrengthEquation.png" title="Democratic Strength Equation" frameborder="0"></iframe></center>
+
 Using Democratic Strength, we then created a Flippability Score, a metric that determines the likelihood of flipping the county from Republican to Democratic control, ranging from 1 as the least flippable to 6 as the most flippable.
 
 To compute the Flippability Score, each county is: 
@@ -45,9 +49,9 @@ We additionally computed a secondary Flippability Score with a greater focus on 
 
 We collected the two-party results for the County Clerk of Superior Court and County Tax Commissioner offices from the November 2020 election, and eliminated counties if they voted for Democrats in both of these offices.
 
-  To calculate Democratic strength, we computed the average of the two-party vote for each county across the above elections as follows:
+ //// To calculate Democratic strength, we computed the average of the two-party vote for each county across the above elections as follows:
 
-<center><iframe width="1000" height="126" src="demstrength_equation.png" title="Democratic Strength Equation" frameborder="0"></iframe></center>
+<center><iframe width="1000" height="126" src="demStrengthEquation.png" title="Democratic Strength Equation" frameborder="0"></iframe></center>
 
 ## List of Top 20 Most Flippable Counties
 Below is the list of counties ranked based on our computed Flippability Scores:
