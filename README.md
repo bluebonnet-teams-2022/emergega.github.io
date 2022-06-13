@@ -8,7 +8,7 @@ All content seen on the website can also be found in the index.md file in the Gi
 An embed code was made available by Tableau for the interactive color map. The code was directly incorporated into the index.md file on github. The map was also incorporated into the website using the Embedding API. 
 
 ### Lists and Equation
-All lists and the equation can be found saved in the Github repository under the following filenames, respectively: flipchart.png, top20flip.png, and demstrength_equation.png.
+All lists and the equation can be found saved in the Github repository under the related filename with '.png' at the end of it. 
 
 ## Interactive Color Map of Georgia Counties: Visualizing Democratic “Flippability"
 This projects visualizes the Democratic strength of Georgia counties on an interactive map that displays county information in a hover box. 
