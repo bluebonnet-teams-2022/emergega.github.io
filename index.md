@@ -49,10 +49,6 @@ We additionally computed a secondary Flippability Score with a greater focus on 
 
 We collected the two-party results for the County Clerk of Superior Court and County Tax Commissioner offices from the November 2020 election, and eliminated counties if they voted for Democrats in both of these offices.
 
- //// To calculate Democratic strength, we computed the average of the two-party vote for each county across the above elections as follows:
-
-<center><iframe width="1000" height="126" src="demStrengthEquation.png" title="Democratic Strength Equation" frameborder="0"></iframe></center>
-
 ## List of Top 20 Most Flippable Counties
 Below is the list of counties ranked based on our computed Flippability Scores:
 
@@ -79,7 +75,7 @@ By default, all counties are shaded. Two filters and a search bar, however, are 
 
   2. “Population as of 2020” filter: Users can move the two sliders on the scale to set a population floor and ceiling that forms the range  determining what counties are displayed on the color map. Users can also insert population floor and ceiling manually. 
   
-  3. The search bar allows users to directly enter the name of a county of interest to pinpoint it on the at least 40%, regardless of county          population size.
+  3. The search bar allows users to directly enter the name of a county of interest to pinpoint it on the map. 
 
 
 
@@ -87,7 +83,7 @@ By default, all counties are shaded. Two filters and a search bar, however, are 
 To help candidates better understand voter behavior and shape their campaign priorities, we analyzed 2018 exit polls data to create candidate profiles on voter demographic information as well as general opinion on a variety of political topics.
 
 ### Voters’ Political Preferences: Analysis
-In order to determine voters’ political preferences in the most flippable counties (all counties that voted for Trump in 2020 with the scores of 3-6, or all counties that voted for Trump in 2020 with the Democratic Strength of a least 40%), we utilized a 2018 survey conducted by YouGov, results of which were subsequently published by the Cooperative Congressional Election Study. We decided to opt for the 2018 poll results since no post-2018 CCES survey would allow us to conduct a county-level analysis. The sample size of our general dataset equals 108, and we will be referring to all respondents as voters in our analysis, regardless of whether they did or did not vote in the most recent elections.
+In order to determine voters’ political preferences in the most flippable counties (all counties that voted for Trump in 2020 with the scores of 3-6, or all counties that voted for Trump in 2020 with the Democratic Strength of at least 40%, regardless of county population size), we utilized a 2018 survey conducted by YouGov, results of which were subsequently published by the Cooperative Congressional Election Study. We decided to opt for the 2018 poll results since no post-2018 CCES survey would allow us to conduct a county-level analysis. The sample size of our general dataset equals 108, and we will be referring to all respondents as voters in our analysis, regardless of whether they did or did not vote in the most recent elections.
 
 ### Voting, Ideological, and Party Preference
 In the most flippable 16 counties, around 75% of voters cast their ballots in the 2016 general election, and nearly half (**49%**) of voters cast their ballots **early** in-person. From those who answered the question on presidential candidate preference (81), around ***52%** of voters said they had cast their ballots for Donald Trump in 2016*, compared to ***33%** who voted for Hillary Clinton that year*. At the same time, voters in these counties overwhelmingly identify as Republicans and conservatives, as shown in the tables below:
