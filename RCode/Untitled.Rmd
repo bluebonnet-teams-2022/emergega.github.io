@@ -1,0 +1,32 @@
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+library(readxl)
+```
+
+```{r}
+mydata <- read_excel(
+  "Desktop/datasetGA.xlsx")
+```
+
+```{r}
+datasetexitpolls <- mydata %>% filter (countyname == "Burke GA" | countyname == "Dooly GA" | countyname == "Peach GA" | countyname == "Twiggs GA" | countyname == "Early GA" | countyname == "Chattahoochee GA" | countyname == "Decatur GA" | countyname == "Fayette GA" | countyname == "Houston GA" | countyname == "Lowndes GA" | countyname == "McDuffie GA" | countyname == "Meriwether GA" | countyname == "Mitchell GA" | countyname == "Screven GA" | countyname == "Wilkes GA" | countyname == "Wilkinson GA")
+```
+
+```{r}
+pollsdata <- datasetexitpolls %>% select("commonweight", "commonpostweight", "vvweight", "vvweight_post", "inputstate", "countyname", "birthyr", "educ", "race", "pid7", "ideo5", "faminc_new", "CC18_316", "CC18_317", "CC18_403", "CC18_325a", "CC18_327a", "CC18_426_4", "CC18_422f", "CC18_322a")
+```
+
+```{r}
+library(writexl)
+write_xlsx(pollsdata,"Desktop/pollsdata.xlsx")
+```
+
+
